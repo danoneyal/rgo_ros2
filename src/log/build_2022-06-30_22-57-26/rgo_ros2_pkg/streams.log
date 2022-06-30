@@ -1,0 +1,11 @@
+[0.018s] Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j8 -l8
+[0.054s] [35m[1mScanning dependencies of target rgo_ros2_node[0m
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m
+[0.168s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/PoseWithCovarianceStamped.idl: No such file or directory
+[0.169s]    10 | #include [01;31m[K"geometry_msgs/msg/PoseWithCovarianceStamped.idl"[m[K
+[0.169s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.169s] compilation terminated.
+[0.170s] make[2]: *** [CMakeFiles/rgo_ros2_node.dir/build.make:63: CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o] Error 1
+[0.170s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgo_ros2_node.dir/all] Error 2
+[0.170s] make: *** [Makefile:141: all] Error 2
+[0.172s] Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j8 -l8

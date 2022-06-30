@@ -1,0 +1,16 @@
+[0.020s] Invoking command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j8 -l8
+[0.054s] [35m[1mScanning dependencies of target robot_sim_ros2_node[0m
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o[0m
+[1.137s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RobotSimRos2Node::timer_callback()[m[K’:
+[1.137s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:66:33:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ is not a member of ‘[01m[Knav_msgs[m[K’; did you mean ‘[01m[Knav_msgs::msg::Odometry[m[K’?
+[1.137s]    66 |       auto odom_msg = nav_msgs::[01;31m[KOdometry[m[K();
+[1.137s]       |                                 [01;31m[K^~~~~~~~[m[K
+[1.137s] In file included from [01m[K/opt/ros/foxy/include/nav_msgs/msg/odometry.hpp:7[m[K,
+[1.137s]                  from [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:12[m[K:
+[1.137s] [01m[K/opt/ros/foxy/include/nav_msgs/msg/detail/odometry__struct.hpp:171:7:[m[K [01;36m[Knote: [m[K‘[01m[Knav_msgs::msg::Odometry[m[K’ declared here
+[1.137s]   171 | using [01;36m[KOdometry[m[K =
+[1.137s]       |       [01;36m[K^~~~~~~~[m[K
+[2.529s] make[2]: *** [CMakeFiles/robot_sim_ros2_node.dir/build.make:63: CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o] Error 1
+[2.529s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robot_sim_ros2_node.dir/all] Error 2
+[2.529s] make: *** [Makefile:141: all] Error 2
+[2.532s] Invoked command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j8 -l8

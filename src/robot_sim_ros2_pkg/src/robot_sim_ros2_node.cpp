@@ -63,10 +63,10 @@ class RobotSimRos2Node : public rclcpp::Node
       i += 0.1; 
 
       //public Odometry message 
-      /*auto odom_msg = nav_msgs::Odometry();
+      auto odom_msg = nav_msgs::msg::Odometry();
       odom_msg.twist.twist.linear.x=i;
       odom_msg.twist.twist.angular.z=i;
-      odometry_publisher_->publish(odom_msg);      */
+      odometry_publisher_->publish(odom_msg);      
     }
     
 };

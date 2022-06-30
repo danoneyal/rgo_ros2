@@ -1,0 +1,11 @@
+[0.021s] Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j8 -l8
+[0.056s] [35m[1mScanning dependencies of target rgo_ros2_node[0m
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m
+[1.126s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:[m[K In constructor ‘[01m[KRgoRos2Node::RgoRos2Node()[m[K’:
+[1.126s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:27:27:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseWithCovarianceStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[1.126s]    27 |       geometry_msgs::msg::[01;31m[KPoseWithCovarianceStamped[m[K()
+[1.126s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.402s] make[2]: *** [CMakeFiles/rgo_ros2_node.dir/build.make:63: CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o] Error 1
+[2.402s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgo_ros2_node.dir/all] Error 2
+[2.402s] make: *** [Makefile:141: all] Error 2
+[2.404s] Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j8 -l8
