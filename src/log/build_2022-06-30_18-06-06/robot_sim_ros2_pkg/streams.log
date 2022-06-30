@@ -1,0 +1,15 @@
+[0.020s] Invoking command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j8 -l8
+[0.055s] [35m[1mScanning dependencies of target robot_sim_ros2_node[0m
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o[0m
+[1.379s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RobotSimRos2Node::subscribe_message(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.379s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:50:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krgo_pos[m[K’ was not declared in this scope; did you mean ‘[01m[Krgo_pose[m[K’?
+[1.379s]    50 |         float x= [01;31m[Krgo_pos[m[K.x;
+[1.379s]       |                  [01;31m[K^~~~~~~[m[K
+[1.379s]       |                  [32m[Krgo_pose[m[K
+[1.379s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:50:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.379s]    50 |         float [01;35m[Kx[m[K= rgo_pos.x;
+[1.379s]       |               [01;35m[K^[m[K
+[2.734s] make[2]: *** [CMakeFiles/robot_sim_ros2_node.dir/build.make:63: CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o] Error 1
+[2.735s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robot_sim_ros2_node.dir/all] Error 2
+[2.735s] make: *** [Makefile:141: all] Error 2
+[2.737s] Invoked command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j8 -l8

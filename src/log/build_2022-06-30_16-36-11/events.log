@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000218] (rgo_ros2_pkg) JobQueued: {'identifier': 'rgo_ros2_pkg', 'dependencies': OrderedDict()}
+[0.000355] (robot_sim_ros2_pkg) JobQueued: {'identifier': 'robot_sim_ros2_pkg', 'dependencies': OrderedDict()}
+[0.000595] (rgo_ros2_pkg) JobStarted: {'identifier': 'rgo_ros2_pkg'}
+[0.010321] (robot_sim_ros2_pkg) JobStarted: {'identifier': 'robot_sim_ros2_pkg'}
+[0.018333] (rgo_ros2_pkg) JobProgress: {'identifier': 'rgo_ros2_pkg', 'progress': 'cmake'}
+[0.018583] (rgo_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/rgo/ros2/capra/src/rgo_ros2_pkg', '-DCMAKE_INSTALL_PREFIX=/home/rgo/ros2/capra/src/install/rgo_ros2_pkg'], 'cwd': '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_IL:en'), ('USER', 'rgo'), ('SSH_AGENT_PID', '1548'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rgo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rgo/ros2/capra/src/rgo_ros2_pkg'), ('TERM_PROGRAM_VERSION', '1.58.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1136'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '587251'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rgo/ros2/capra/src/rgo_ros2_pkg/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rgo'), ('JOURNAL_STREAM', '8:41411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rgo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rgo/.local/bin:/home/rgo/miniconda3/bin:/home/rgo/miniconda3/condabin:/opt/ros/foxy/bin:/home/rgo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rgo-ZenBook-UX450FDX-UX480FD:@/tmp/.ICE-unix/1683,unix/rgo-ZenBook-UX450FDX-UX480FD:/tmp/.ICE-unix/1683'), ('INVOCATION_ID', '764054fc1ce04582accd72971f8b0e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a968d0e22a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/rgo/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rgo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/rgo/.config/Code/exthost Crash Reports'), ('CONDA_PREFIX', '/home/rgo/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.025515] (robot_sim_ros2_pkg) JobProgress: {'identifier': 'robot_sim_ros2_pkg', 'progress': 'cmake'}
+[0.025920] (robot_sim_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/rgo/ros2/capra/src/robot_sim_ros2_pkg', '-DCMAKE_INSTALL_PREFIX=/home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg'], 'cwd': '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_IL:en'), ('USER', 'rgo'), ('SSH_AGENT_PID', '1548'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rgo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/rgo/ros2/capra/src/rgo_ros2_pkg'), ('TERM_PROGRAM_VERSION', '1.58.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1136'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '587251'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/rgo/ros2/capra/src/rgo_ros2_pkg/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rgo'), ('JOURNAL_STREAM', '8:41411'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'rgo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rgo/.local/bin:/home/rgo/miniconda3/bin:/home/rgo/miniconda3/condabin:/opt/ros/foxy/bin:/home/rgo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rgo-ZenBook-UX450FDX-UX480FD:@/tmp/.ICE-unix/1683,unix/rgo-ZenBook-UX450FDX-UX480FD:/tmp/.ICE-unix/1683'), ('INVOCATION_ID', '764054fc1ce04582accd72971f8b0e2d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a968d0e22a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/rgo/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/rgo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/rgo/.config/Code/exthost Crash Reports'), ('CONDA_PREFIX', '/home/rgo/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.075410] (rgo_ros2_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.085640] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099723] (-) TimerEvent: {}
+[0.125594] (rgo_ros2_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.129981] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.137775] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.144178] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.188955] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.189820] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199845] (-) TimerEvent: {}
+[0.208077] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.209089] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.259572] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.271577] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.277062] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.277563] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.281240] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.283972] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.284382] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.286846] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299945] (-) TimerEvent: {}
+[0.354522] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.355273] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.355601] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.356812] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400029] (-) TimerEvent: {}
+[0.427766] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.431257] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.439988] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.440536] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.442368] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.443566] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.444060] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.445876] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.464813] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /home/rgo/miniconda3/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.465134] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/rgo/miniconda3/bin/python3\n'}
+[0.469374] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /home/rgo/miniconda3/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.469603] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/rgo/miniconda3/bin/python3\n'}
+[0.500118] (-) TimerEvent: {}
+[0.600393] (-) TimerEvent: {}
+[0.632433] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.634726] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.668533] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.672427] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.674061] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.679561] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.700503] (-) TimerEvent: {}
+[0.741679] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.747486] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.768455] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.773001] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.800655] (-) TimerEvent: {}
+[0.836953] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.839203] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.883431] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.884841] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.885504] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.885828] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.887047] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.887855] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900742] (-) TimerEvent: {}
+[0.947553] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.947795] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.948759] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.949117] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000870] (-) TimerEvent: {}
+[1.011941] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.012210] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.018311] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.018580] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.068838] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.069050] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.069204] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.069353] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.100990] (-) TimerEvent: {}
+[1.138172] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.138398] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.139342] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.139615] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201078] (-) TimerEvent: {}
+[1.279755] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.281085] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.301154] (-) TimerEvent: {}
+[1.312766] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.314901] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.381107] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.383567] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.384991] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.385233] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.385327] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.386413] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.386519] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.387465] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.388788] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.388890] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.389552] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.393884] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.394947] (robot_sim_ros2_pkg) StderrLine: {'line': b'CMake Error at CMakeLists.txt:29 (add_executable):\n'}
+[1.395056] (robot_sim_ros2_pkg) StderrLine: {'line': b'  Cannot find source file:\n'}
+[1.395130] (robot_sim_ros2_pkg) StderrLine: {'line': b'\n'}
+[1.395198] (robot_sim_ros2_pkg) StderrLine: {'line': b'    src/rgo_ros2_node.cpp\n'}
+[1.395263] (robot_sim_ros2_pkg) StderrLine: {'line': b'\n'}
+[1.395334] (robot_sim_ros2_pkg) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[1.395392] (robot_sim_ros2_pkg) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[1.395453] (robot_sim_ros2_pkg) StderrLine: {'line': b'\n'}
+[1.395523] (robot_sim_ros2_pkg) StderrLine: {'line': b'\n'}
+[1.396346] (robot_sim_ros2_pkg) StderrLine: {'line': b'CMake Error at CMakeLists.txt:29 (add_executable):\n'}
+[1.396418] (robot_sim_ros2_pkg) StderrLine: {'line': b'  No SOURCES given to target: robot_sim_ros2_node\n'}
+[1.396501] (robot_sim_ros2_pkg) StderrLine: {'line': b'\n'}
+[1.396582] (robot_sim_ros2_pkg) StderrLine: {'line': b'\n'}
+[1.396657] (robot_sim_ros2_pkg) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[1.398633] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.398818] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.398901] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.401245] (-) TimerEvent: {}
+[1.406389] (robot_sim_ros2_pkg) CommandEnded: {'returncode': 1}
+[1.413931] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.414204] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.416210] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.420535] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.422113] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.430754] (robot_sim_ros2_pkg) JobEnded: {'identifier': 'robot_sim_ros2_pkg', 'rc': 1}
+[1.435712] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.435949] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.437654] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.440740] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.451098] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.452739] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/rgo/ros2/capra/src/build/rgo_ros2_pkg\n'}
+[1.460264] (rgo_ros2_pkg) JobEnded: {'identifier': 'rgo_ros2_pkg', 'rc': 'SIGINT'}
+[1.471844] (-) EventReactorShutdown: {}

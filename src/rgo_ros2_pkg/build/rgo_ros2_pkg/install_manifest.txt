@@ -1,0 +1,16 @@
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/lib/rgo_ros2_pkg/rgo_ros2_node
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/rgo_ros2_pkg
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/rgo_ros2_pkg
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/rgo_ros2_pkg/environment/ament_prefix_path.sh
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/rgo_ros2_pkg/environment/ament_prefix_path.dsv
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/rgo_ros2_pkg/environment/path.sh
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/rgo_ros2_pkg/environment/path.dsv
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/rgo_ros2_pkg/local_setup.bash
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/rgo_ros2_pkg/local_setup.sh
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/rgo_ros2_pkg/local_setup.zsh
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/rgo_ros2_pkg/local_setup.dsv
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.dsv
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/ament_index/resource_index/packages/rgo_ros2_pkg
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/rgo_ros2_pkg/cmake/rgo_ros2_pkgConfig.cmake
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/rgo_ros2_pkg/cmake/rgo_ros2_pkgConfig-version.cmake
+/home/rgo/ros2/capra/src/rgo_ros2_pkg/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.xml
