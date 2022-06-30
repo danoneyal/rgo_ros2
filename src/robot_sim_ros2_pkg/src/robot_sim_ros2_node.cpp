@@ -9,9 +9,10 @@
 #include "geometry_msgs/msg/pose.hpp"
 
 
-#include <nav_msgs/msg/odometry.h>
+#include <nav_msgs/msg/odometry.hpp>
 
 using namespace std::chrono_literals;
+//using namespace nav_msgs;
 using std::placeholders::_1;
 
 class RobotSimRos2Node : public rclcpp::Node
@@ -35,7 +36,7 @@ class RobotSimRos2Node : public rclcpp::Node
     float i;
     rclcpp::TimerBase::SharedPtr timer_;    
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
-    rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr odometry_publisher_;
+    rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr odometry_publisher_;    
     
     rclcpp::Subscription<geometry_msgs::msg::Pose>::SharedPtr subscriber_;
     size_t count_;
@@ -62,10 +63,10 @@ class RobotSimRos2Node : public rclcpp::Node
       i += 0.1; 
 
       //public Odometry message 
-      auto odom_msg = nav_msgs::msg::Odometry();
+      /*auto odom_msg = nav_msgs::Odometry();
       odom_msg.twist.twist.linear.x=i;
       odom_msg.twist.twist.angular.z=i;
-      odometry_publisher_->publish(odom_msg);      
+      odometry_publisher_->publish(odom_msg);      */
     }
     
 };

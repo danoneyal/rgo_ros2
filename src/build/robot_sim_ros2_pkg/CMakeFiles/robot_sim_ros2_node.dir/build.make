@@ -80,10 +80,10 @@ robot_sim_ros2_node_EXTERNAL_OBJECTS =
 robot_sim_ros2_node: CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o
 robot_sim_ros2_node: CMakeFiles/robot_sim_ros2_node.dir/build.make
 robot_sim_ros2_node: /opt/ros/foxy/lib/librclcpp.so
-robot_sim_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-robot_sim_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-robot_sim_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-robot_sim_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+robot_sim_ros2_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+robot_sim_ros2_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_c.so
+robot_sim_ros2_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+robot_sim_ros2_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_cpp.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/liblibstatistics_collector.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
@@ -113,7 +113,12 @@ robot_sim_ros2_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.
 robot_sim_ros2_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/libtracetools.so
+robot_sim_ros2_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_generator_c.so
+robot_sim_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+robot_sim_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+robot_sim_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+robot_sim_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so

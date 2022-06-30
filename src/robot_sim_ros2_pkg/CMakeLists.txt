@@ -29,6 +29,7 @@ find_package(nav_msgs REQUIRED)
 
 add_executable(robot_sim_ros2_node src/robot_sim_ros2_node.cpp)
 ament_target_dependencies(robot_sim_ros2_node rclcpp std_msgs geometry_msgs nav_msgs)
+#ament_target_dependencies(robot_sim_ros2_node rclcpp std_msgs geometry_msgs )
 
 
 install(TARGETS
