@@ -1,0 +1,54 @@
+[0.020s] Invoking command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j8 -l8
+[0.052s] [35m[1mScanning dependencies of target robot_sim_ros2_node[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o[0m
+[1.142s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:38:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope
+[1.142s]    38 |     rclcpp::Publisher<[01;31m[Knav_msgs[m[K::Odometry>::SharedPtr odometry_publisher_;
+[1.143s]       |                       [01;31m[K^~~~~~~~[m[K
+[1.143s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:38:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.143s]    38 |     rclcpp::Publisher<nav_msgs::Odometry[01;31m[K>[m[K::SharedPtr odometry_publisher_;
+[1.143s]       |                                         [01;31m[K^[m[K
+[1.143s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:38:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.143s]    38 |     rclcpp::Publisher<nav_msgs::Odometry>::[01;31m[KSharedPtr[m[K odometry_publisher_;
+[1.143s]       |                                            [01;31m[K^~~~~~~~~[m[K
+[1.143s]       |                                                     [32m[K;[m[K
+[1.145s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:38:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kodometry_publisher_[m[K’ does not name a type
+[1.145s]    38 |     rclcpp::Publisher<nav_msgs::Odometry>::SharedPtr [01;31m[Kodometry_publisher_[m[K;
+[1.145s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.167s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:[m[K In constructor ‘[01m[KRobotSimRos2Node::RobotSimRos2Node()[m[K’:
+[1.167s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:29:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kodometry_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[1.167s]    29 |       [01;31m[Kodometry_publisher_[m[K = this->create_publisher<nav_msgs::Odometry>("robot_sim_odometry", 1);
+[1.167s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.167s]       |       [32m[Kcount_publishers[m[K
+[1.168s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:29:52:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope
+[1.168s]    29 |       odometry_publisher_ = this->create_publisher<[01;31m[Knav_msgs[m[K::Odometry>("robot_sim_odometry", 1);
+[1.168s]       |                                                    [01;31m[K^~~~~~~~[m[K
+[1.169s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:29:35:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.169s]    29 |       odometry_publisher_ = this->[01;31m[Kcreate_publisher<nav_msgs::Odometry>[m[K("robot_sim_odometry", 1);
+[1.169s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.169s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:29:95:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotSimRos2Node::create_publisher<<expression error> >(const char [19], int)[m[K’
+[1.169s]    29 |       odometry_publisher_ = this->create_publisher<nav_msgs::Odometry>("robot_sim_odometry", 1[01;31m[K)[m[K;
+[1.169s]       |                                                                                               [01;31m[K^[m[K
+[1.169s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[1.169s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.169s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.169s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.169s]                  from [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:6[m[K:
+[1.169s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.169s]    71 | [01;36m[KNode[m[K::create_publisher(
+[1.169s]       | [01;36m[K^~~~[m[K
+[1.169s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.169s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:29:95:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.169s]    29 |       odometry_publisher_ = this->create_publisher<nav_msgs::Odometry>("robot_sim_odometry", 1[01;31m[K)[m[K;
+[1.169s]       |                                                                                               [01;31m[K^[m[K
+[1.184s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RobotSimRos2Node::timer_callback()[m[K’:
+[1.185s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:65:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ has not been declared
+[1.185s]    65 |       auto odom_msg = [01;31m[Knav_msgs[m[K::Odometry();
+[1.185s]       |                       [01;31m[K^~~~~~~~[m[K
+[1.187s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:68:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kodometry_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[1.187s]    68 |       [01;31m[Kodometry_publisher_[m[K->publish(odom_msg);
+[1.188s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.188s]       |       [32m[Kcount_publishers[m[K
+[2.476s] make[2]: *** [CMakeFiles/robot_sim_ros2_node.dir/build.make:63: CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o] Error 1
+[2.477s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robot_sim_ros2_node.dir/all] Error 2
+[2.477s] make: *** [Makefile:141: all] Error 2
+[2.479s] Invoked command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j8 -l8

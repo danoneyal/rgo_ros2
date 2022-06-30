@@ -1,0 +1,11 @@
+[0.020s] Invoking command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j8 -l8
+[0.052s] [35m[1mScanning dependencies of target robot_sim_ros2_node[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o[0m
+[0.180s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:12:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/odometry.h: No such file or directory
+[0.180s]    12 | #include [01;31m[K<nav_msgs/odometry.h>[m[K
+[0.181s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.181s] compilation terminated.
+[0.182s] make[2]: *** [CMakeFiles/robot_sim_ros2_node.dir/build.make:63: CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o] Error 1
+[0.182s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robot_sim_ros2_node.dir/all] Error 2
+[0.182s] make: *** [Makefile:141: all] Error 2
+[0.184s] Invoked command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j8 -l8
