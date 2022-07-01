@@ -1,0 +1,4 @@
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RgoRos2Node::subscribe_odometry_message(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:59:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kodom_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   59 |     void subscribe_odometry_message([01;35m[Kconst nav_msgs::msg::Odometry::SharedPtr odom_msg[m[K) const
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

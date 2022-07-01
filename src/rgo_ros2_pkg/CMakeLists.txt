@@ -21,13 +21,13 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
-
+find_package(nav_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
 add_executable(rgo_ros2_node src/rgo_ros2_node.cpp)
-ament_target_dependencies(rgo_ros2_node rclcpp std_msgs geometry_msgs)
+ament_target_dependencies(rgo_ros2_node rclcpp std_msgs geometry_msgs nav_msgs)
 
 
 install(TARGETS

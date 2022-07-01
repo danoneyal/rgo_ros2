@@ -1,0 +1,11 @@
+[0.018s] Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j8 -l8
+[0.059s] [35m[1mScanning dependencies of target rgo_ros2_node[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m
+[1.178s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RgoRos2Node::subscribe_message(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.178s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:61:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.178s]    61 |         message.[01;31m[Kpose[m[K;
+[1.178s]       |                 [01;31m[K^~~~[m[K
+[2.714s] make[2]: *** [CMakeFiles/rgo_ros2_node.dir/build.make:63: CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o] Error 1
+[2.714s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgo_ros2_node.dir/all] Error 2
+[2.714s] make: *** [Makefile:141: all] Error 2
+[2.716s] Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j8 -l8

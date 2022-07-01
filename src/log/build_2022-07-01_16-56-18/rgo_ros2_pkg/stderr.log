@@ -1,0 +1,7 @@
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RgoRos2Node::subscribe_message(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:62:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   62 |         float [01;35m[Kx[m[K= message->twist.twist.linear.x;
+      |               [01;35m[K^[m[K
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:63:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   63 |         float [01;35m[Kz[m[K=message->twist.twist.angular.z;
+      |               [01;35m[K^[m[K

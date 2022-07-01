@@ -80,10 +80,10 @@ rgo_ros2_node_EXTERNAL_OBJECTS =
 rgo_ros2_node: CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o
 rgo_ros2_node: CMakeFiles/rgo_ros2_node.dir/build.make
 rgo_ros2_node: /opt/ros/foxy/lib/librclcpp.so
-rgo_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-rgo_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-rgo_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-rgo_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+rgo_ros2_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+rgo_ros2_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_c.so
+rgo_ros2_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+rgo_ros2_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_cpp.so
 rgo_ros2_node: /opt/ros/foxy/lib/liblibstatistics_collector.so
 rgo_ros2_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 rgo_ros2_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
@@ -113,7 +113,12 @@ rgo_ros2_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 rgo_ros2_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 rgo_ros2_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 rgo_ros2_node: /opt/ros/foxy/lib/libtracetools.so
+rgo_ros2_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_generator_c.so
+rgo_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 rgo_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+rgo_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+rgo_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+rgo_ros2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 rgo_ros2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 rgo_ros2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
 rgo_ros2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
