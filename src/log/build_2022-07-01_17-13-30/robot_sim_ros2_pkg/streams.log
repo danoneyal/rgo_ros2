@@ -1,0 +1,57 @@
+[0.018s] Invoking command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j8 -l8
+[0.051s] [35m[1mScanning dependencies of target robot_sim_ros2_node[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o[0m
+[1.183s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RobotSimRos2Node::pose_subscribe_message(geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.183s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:58:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.183s]    58 |         rgo_pose_win_cov.pose.[01;31m[Kpose[m[K.position.x ;
+[1.183s]       |                               [01;31m[K^~~~[m[K
+[1.183s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:59:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.183s]    59 |         rgo_pose_win_cov.pose.[01;31m[Kpose[m[K.position.y ;
+[1.183s]       |                               [01;31m[K^~~~[m[K
+[1.183s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:60:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.183s]    60 |         rgo_pose_win_cov.pose.[01;31m[Kpose[m[K.position.z;
+[1.183s]       |                               [01;31m[K^~~~[m[K
+[1.184s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:61:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.184s]    61 |         rgo_pose_win_cov.pose.[01;31m[Kpose[m[K.orientation.x;
+[1.184s]       |                               [01;31m[K^~~~[m[K
+[1.184s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:62:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.184s]    62 |         rgo_pose_win_cov.pose.[01;31m[Kpose[m[K.orientation.y;
+[1.184s]       |                               [01;31m[K^~~~[m[K
+[1.184s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:63:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.184s]    63 |         rgo_pose_win_cov.pose.[01;31m[Kpose[m[K.orientation.z ;
+[1.184s]       |                               [01;31m[K^~~~[m[K
+[1.184s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:64:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.184s]    64 |         rgo_pose_win_cov.pose.[01;31m[Kpose[m[K.orientation.w;
+[1.184s]       |                               [01;31m[K^~~~[m[K
+[1.184s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.184s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.184s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.184s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.185s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.185s]                  from [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:6[m[K:
+[1.185s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:65:111:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.185s]    65 |         RCLCPP_INFO(this->get_logger(), "recive - position x: '%f', y: '%f', z: '%f' ", rgo_pose_win_cov.pose.[01;31m[Kpose[m[K.position.x, rgo_pose_win_cov.pose.pose.position.y,rgo_pose_win_cov.pose.pose.position.z);
+[1.185s]       |                                                                                                               [01;31m[K^~~~[m[K
+[1.185s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:65:150:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.185s]    65 | INFO(this->get_logger(), "recive - position x: '%f', y: '%f', z: '%f' ", rgo_pose_win_cov.pose.pose.position.x, rgo_pose_win_cov.pose.[01;31m[Kpose[m[K.position.y,rgo_pose_win_cov.pose.pose.position.z);
+[1.185s]       |                                                                                                                                       [01;31m[K^~~~[m[K
+[1.185s] 
+[1.185s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:65:188:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.186s]    65 | sition x: '%f', y: '%f', z: '%f' ", rgo_pose_win_cov.pose.pose.position.x, rgo_pose_win_cov.pose.pose.position.y,rgo_pose_win_cov.pose.[01;31m[Kpose[m[K.position.z);
+[1.186s]       |                                                                                                                                        [01;31m[K^~~~[m[K
+[1.186s] 
+[1.186s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:66:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+[1.186s]    66 |         *[01;31m[K/[m[K
+[1.186s]       |          [01;31m[K^[m[K
+[1.186s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:68:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[1.186s]    68 |     [01;31m[K}[m[K
+[1.186s]       |     [01;31m[K^[m[K
+[3.295s] make[2]: *** [CMakeFiles/robot_sim_ros2_node.dir/build.make:63: CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o] Error 1
+[3.295s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/robot_sim_ros2_node.dir/all] Error 2
+[3.295s] make: *** [Makefile:141: all] Error 2
+[3.297s] Invoked command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j8 -l8

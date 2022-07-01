@@ -1,0 +1,30 @@
+[0.018s] Invoking command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j8 -l8
+[0.053s] [35m[1mScanning dependencies of target robot_sim_ros2_node[0m
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o[0m
+[1.295s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RobotSimRos2Node::pose_subscribe_message(geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.295s] [01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:55:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.295s]    55 |     void pose_subscribe_message([01;35m[Kgeometry_msgs::msg::PoseWithCovarianceStamped::SharedPtr pose_msg[m[K)
+[1.295s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[6.336s] [100%] [32m[1mLinking CXX executable robot_sim_ros2_node[0m
+[6.626s] [100%] Built target robot_sim_ros2_node
+[6.638s] Invoked command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j8 -l8
+[6.659s] Invoking command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg
+[6.666s] -- Install configuration: ""
+[6.666s] -- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/lib/robot_sim_ros2_pkg/robot_sim_ros2_node
+[6.669s] -- Set runtime path of "/home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/lib/robot_sim_ros2_pkg/robot_sim_ros2_node" to ""
+[6.669s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/robot_sim_ros2_pkg
+[6.669s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/robot_sim_ros2_pkg
+[6.669s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/ament_prefix_path.sh
+[6.670s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/ament_prefix_path.dsv
+[6.670s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/path.sh
+[6.670s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/path.dsv
+[6.670s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.bash
+[6.670s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.sh
+[6.670s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.zsh
+[6.670s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.dsv
+[6.670s] -- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/package.dsv
+[6.670s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/ament_index/resource_index/packages/robot_sim_ros2_pkg
+[6.670s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/cmake/robot_sim_ros2_pkgConfig.cmake
+[6.670s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/cmake/robot_sim_ros2_pkgConfig-version.cmake
+[6.670s] -- Up-to-date: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/package.xml
+[6.673s] Invoked command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg

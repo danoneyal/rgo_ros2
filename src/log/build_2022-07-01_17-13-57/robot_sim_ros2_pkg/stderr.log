@@ -1,0 +1,4 @@
+[01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RobotSimRos2Node::pose_subscribe_message(geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rgo/ros2/capra/src/robot_sim_ros2_pkg/src/robot_sim_ros2_node.cpp:57:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Krgo_pose_win_cov[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   57 |         auto [01;35m[Krgo_pose_win_cov[m[K = pose_msg->pose;
+      |              [01;35m[K^~~~~~~~~~~~~~~~[m[K
