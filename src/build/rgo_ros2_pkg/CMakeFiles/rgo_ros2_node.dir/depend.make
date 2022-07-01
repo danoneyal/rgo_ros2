@@ -15,6 +15,14 @@ CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geom
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose__builder.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose__struct.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose__traits.hpp
+CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__builder.hpp
+CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp
+CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__traits.hpp
+CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp
+CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp
+CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp
+CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp
+CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/quaternion__struct.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/quaternion__traits.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/twist__builder.hpp
@@ -23,6 +31,8 @@ CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geom
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__traits.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/pose.hpp
+CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/pose_stamped.hpp
+CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/pose_with_covariance_stamped.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/twist.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/libstatistics_collector/collector/collector.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp
@@ -287,6 +297,8 @@ CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/stat
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__traits.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp
+CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp
+CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/std_msgs/msg/detail/header__traits.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/std_msgs/msg/detail/string__builder.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp
 CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o: /opt/ros/foxy/include/std_msgs/msg/detail/string__traits.hpp
