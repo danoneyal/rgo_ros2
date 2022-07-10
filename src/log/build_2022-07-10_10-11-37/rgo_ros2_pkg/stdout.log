@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target rgo_ros2_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m

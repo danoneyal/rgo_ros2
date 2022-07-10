@@ -16,7 +16,7 @@ RgoRos2Node::RgoRos2Node (): Node("rgo_ros2_node"), count_(0)
   timer_ = this->create_wall_timer(500ms, std::bind(&RgoRos2Node::timer_callback, this));      
   i = 0.0;
 
-  RCLCPP_INFO(this->get_logger(), "RgoRos2Node run from refactor\n");
+  RCLCPP_INFO(this->get_logger(), "2- RgoRos2Node run from refactor\n");
 }
 
 void RgoRos2Node::shutdown()
