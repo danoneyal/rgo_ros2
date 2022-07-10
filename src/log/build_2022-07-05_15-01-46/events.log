@@ -1,0 +1,573 @@
+[0.000000] (-) TimerEvent: {}
+[0.001194] (rgo_ros2_pkg) JobQueued: {'identifier': 'rgo_ros2_pkg', 'dependencies': OrderedDict()}
+[0.001348] (robot_sim_ros2_pkg) JobQueued: {'identifier': 'robot_sim_ros2_pkg', 'dependencies': OrderedDict()}
+[0.002564] (rgo_ros2_pkg) JobStarted: {'identifier': 'rgo_ros2_pkg'}
+[0.043923] (robot_sim_ros2_pkg) JobStarted: {'identifier': 'robot_sim_ros2_pkg'}
+[0.077545] (rgo_ros2_pkg) JobProgress: {'identifier': 'rgo_ros2_pkg', 'progress': 'cmake'}
+[0.079343] (rgo_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/rgo/ros2/capra/src/rgo_ros2_pkg', '-DCMAKE_INSTALL_PREFIX=/home/rgo/ros2/capra/src/install/rgo_ros2_pkg'], 'cwd': '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgo'), ('SSH_CLIENT', '192.168.1.165 60066 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rgo'), ('OLDPWD', '/home/rgo/ros2/capra'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rgo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.165 60066 192.168.1.113 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.113405] (-) TimerEvent: {}
+[0.115896] (robot_sim_ros2_pkg) JobProgress: {'identifier': 'robot_sim_ros2_pkg', 'progress': 'cmake'}
+[0.116136] (robot_sim_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/rgo/ros2/capra/src/robot_sim_ros2_pkg', '-DCMAKE_INSTALL_PREFIX=/home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg'], 'cwd': '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgo'), ('SSH_CLIENT', '192.168.1.165 60066 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rgo'), ('OLDPWD', '/home/rgo/ros2/capra'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rgo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.165 60066 192.168.1.113 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.213483] (-) TimerEvent: {}
+[0.314333] (-) TimerEvent: {}
+[0.335440] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.338839] (rgo_ros2_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.414684] (-) TimerEvent: {}
+[0.516337] (-) TimerEvent: {}
+[0.578073] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.582533] (rgo_ros2_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.600470] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.605120] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.616940] (-) TimerEvent: {}
+[0.720689] (-) TimerEvent: {}
+[0.828504] (-) TimerEvent: {}
+[0.919917] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.927000] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.928667] (-) TimerEvent: {}
+[0.934297] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.943532] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.029203] (-) TimerEvent: {}
+[1.131147] (-) TimerEvent: {}
+[1.226284] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.231504] (-) TimerEvent: {}
+[1.247013] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.280900] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.283456] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.289721] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.313009] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.322891] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.331138] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.332247] (-) TimerEvent: {}
+[1.433496] (-) TimerEvent: {}
+[1.535036] (-) TimerEvent: {}
+[1.621438] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.625613] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.635138] (-) TimerEvent: {}
+[1.647167] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.649647] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.735668] (-) TimerEvent: {}
+[1.838021] (-) TimerEvent: {}
+[1.939414] (-) TimerEvent: {}
+[1.998477] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.034041] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.039746] (-) TimerEvent: {}
+[2.071895] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.075300] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.079063] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.091748] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.094458] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.099675] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.140207] (-) TimerEvent: {}
+[2.167753] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.170142] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.197360] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.200147] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.240578] (-) TimerEvent: {}
+[2.342212] (-) TimerEvent: {}
+[2.444439] (-) TimerEvent: {}
+[2.546584] (-) TimerEvent: {}
+[2.648667] (-) TimerEvent: {}
+[2.750744] (-) TimerEvent: {}
+[2.853174] (-) TimerEvent: {}
+[2.934429] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.936869] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.953479] (-) TimerEvent: {}
+[3.056104] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.059099] (-) TimerEvent: {}
+[3.061047] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.074141] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.077679] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.159559] (-) TimerEvent: {}
+[3.261598] (-) TimerEvent: {}
+[3.294412] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.344446] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.361909] (-) TimerEvent: {}
+[3.365284] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.456204] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.462378] (-) TimerEvent: {}
+[3.565872] (-) TimerEvent: {}
+[3.591024] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.666226] (-) TimerEvent: {}
+[3.691478] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.766645] (-) TimerEvent: {}
+[3.771089] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.775497] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.780536] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.867073] (-) TimerEvent: {}
+[3.874404] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.878769] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.881371] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.967366] (-) TimerEvent: {}
+[4.068875] (-) TimerEvent: {}
+[4.170081] (-) TimerEvent: {}
+[4.193086] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.197082] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.260576] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.263500] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.270176] (-) TimerEvent: {}
+[4.370912] (-) TimerEvent: {}
+[4.454473] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.455302] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.471081] (-) TimerEvent: {}
+[4.571878] (-) TimerEvent: {}
+[4.644599] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.672180] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.673974] (-) TimerEvent: {}
+[4.724506] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.726917] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.774313] (-) TimerEvent: {}
+[4.875939] (-) TimerEvent: {}
+[4.914625] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.916003] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.976230] (-) TimerEvent: {}
+[5.002347] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.005440] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.076509] (-) TimerEvent: {}
+[5.177834] (-) TimerEvent: {}
+[5.210458] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.212909] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.278343] (-) TimerEvent: {}
+[5.380698] (-) TimerEvent: {}
+[5.483054] (-) TimerEvent: {}
+[5.528953] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[5.583592] (-) TimerEvent: {}
+[5.643127] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[5.683975] (-) TimerEvent: {}
+[5.718370] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[5.784607] (-) TimerEvent: {}
+[5.832481] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[5.885023] (-) TimerEvent: {}
+[5.887441] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.985341] (-) TimerEvent: {}
+[6.082557] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[6.085530] (-) TimerEvent: {}
+[6.187433] (-) TimerEvent: {}
+[6.232751] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.235658] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.237663] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.239339] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.240580] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.242202] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.243252] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.244959] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.246836] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.248317] (robot_sim_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.255110] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.287602] (-) TimerEvent: {}
+[6.289547] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[6.294077] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg\n'}
+[6.332038] (robot_sim_ros2_pkg) CommandEnded: {'returncode': 0}
+[6.338572] (robot_sim_ros2_pkg) JobProgress: {'identifier': 'robot_sim_ros2_pkg', 'progress': 'build'}
+[6.360575] (robot_sim_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg', '--', '-j6', '-l6'], 'cwd': '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgo'), ('SSH_CLIENT', '192.168.1.165 60066 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rgo'), ('OLDPWD', '/home/rgo/ros2/capra'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rgo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.165 60066 192.168.1.113 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[6.388032] (-) TimerEvent: {}
+[6.435200] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.463449] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.464774] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.465588] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.488207] (-) TimerEvent: {}
+[6.492920] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.495340] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.498297] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.501042] (robot_sim_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robot_sim_ros2_node\x1b[0m\n'}
+[6.506268] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.511239] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[6.538300] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.540758] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.543441] (rgo_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.550686] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.579988] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[6.584697] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/rgo/ros2/capra/src/build/rgo_ros2_pkg\n'}
+[6.588653] (-) TimerEvent: {}
+[6.621925] (rgo_ros2_pkg) CommandEnded: {'returncode': 0}
+[6.627134] (rgo_ros2_pkg) JobProgress: {'identifier': 'rgo_ros2_pkg', 'progress': 'build'}
+[6.630181] (rgo_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg', '--', '-j6', '-l6'], 'cwd': '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgo'), ('SSH_CLIENT', '192.168.1.165 60066 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rgo'), ('OLDPWD', '/home/rgo/ros2/capra'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rgo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.165 60066 192.168.1.113 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[6.652568] (robot_sim_ros2_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_sim_ros2_node.dir/src/robot_sim_ros2_node.cpp.o\x1b[0m\n'}
+[6.688971] (-) TimerEvent: {}
+[6.790608] (-) TimerEvent: {}
+[6.814077] (rgo_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rgo_ros2_node\x1b[0m\n'}
+[6.890913] (-) TimerEvent: {}
+[6.940280] (rgo_ros2_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o\x1b[0m\n'}
+[6.991216] (-) TimerEvent: {}
+[7.093007] (-) TimerEvent: {}
+[7.195355] (-) TimerEvent: {}
+[7.297789] (-) TimerEvent: {}
+[7.400150] (-) TimerEvent: {}
+[7.502418] (-) TimerEvent: {}
+[7.604738] (-) TimerEvent: {}
+[7.707016] (-) TimerEvent: {}
+[7.809316] (-) TimerEvent: {}
+[7.911791] (-) TimerEvent: {}
+[8.014185] (-) TimerEvent: {}
+[8.116433] (-) TimerEvent: {}
+[8.219034] (-) TimerEvent: {}
+[8.323404] (-) TimerEvent: {}
+[8.427073] (-) TimerEvent: {}
+[8.530779] (-) TimerEvent: {}
+[8.634520] (-) TimerEvent: {}
+[8.738134] (-) TimerEvent: {}
+[8.841887] (-) TimerEvent: {}
+[8.945488] (-) TimerEvent: {}
+[9.049322] (-) TimerEvent: {}
+[9.153103] (-) TimerEvent: {}
+[9.256765] (-) TimerEvent: {}
+[9.361099] (-) TimerEvent: {}
+[9.464705] (-) TimerEvent: {}
+[9.568328] (-) TimerEvent: {}
+[9.672078] (-) TimerEvent: {}
+[9.775650] (-) TimerEvent: {}
+[9.879469] (-) TimerEvent: {}
+[9.983264] (-) TimerEvent: {}
+[10.086985] (-) TimerEvent: {}
+[10.190571] (-) TimerEvent: {}
+[10.294098] (-) TimerEvent: {}
+[10.396751] (-) TimerEvent: {}
+[10.499190] (-) TimerEvent: {}
+[10.601571] (-) TimerEvent: {}
+[10.703787] (-) TimerEvent: {}
+[10.806096] (-) TimerEvent: {}
+[10.908395] (-) TimerEvent: {}
+[11.010871] (-) TimerEvent: {}
+[11.113171] (-) TimerEvent: {}
+[11.215579] (-) TimerEvent: {}
+[11.317985] (-) TimerEvent: {}
+[11.420226] (-) TimerEvent: {}
+[11.522560] (-) TimerEvent: {}
+[11.624947] (-) TimerEvent: {}
+[11.727120] (-) TimerEvent: {}
+[11.829261] (-) TimerEvent: {}
+[11.931545] (-) TimerEvent: {}
+[12.033775] (-) TimerEvent: {}
+[12.136035] (-) TimerEvent: {}
+[12.238523] (-) TimerEvent: {}
+[12.340977] (-) TimerEvent: {}
+[12.443294] (-) TimerEvent: {}
+[12.545649] (-) TimerEvent: {}
+[12.648062] (-) TimerEvent: {}
+[12.750357] (-) TimerEvent: {}
+[12.852582] (-) TimerEvent: {}
+[12.955055] (-) TimerEvent: {}
+[13.057318] (-) TimerEvent: {}
+[13.159751] (-) TimerEvent: {}
+[13.262198] (-) TimerEvent: {}
+[13.364598] (-) TimerEvent: {}
+[13.466961] (-) TimerEvent: {}
+[13.569517] (-) TimerEvent: {}
+[13.672007] (-) TimerEvent: {}
+[13.774186] (-) TimerEvent: {}
+[13.876411] (-) TimerEvent: {}
+[13.978730] (-) TimerEvent: {}
+[14.081056] (-) TimerEvent: {}
+[14.183294] (-) TimerEvent: {}
+[14.285677] (-) TimerEvent: {}
+[14.388066] (-) TimerEvent: {}
+[14.490298] (-) TimerEvent: {}
+[14.592922] (-) TimerEvent: {}
+[14.695190] (-) TimerEvent: {}
+[14.797474] (-) TimerEvent: {}
+[14.899970] (-) TimerEvent: {}
+[15.002307] (-) TimerEvent: {}
+[15.104716] (-) TimerEvent: {}
+[15.207066] (-) TimerEvent: {}
+[15.309220] (-) TimerEvent: {}
+[15.411552] (-) TimerEvent: {}
+[15.513955] (-) TimerEvent: {}
+[15.616291] (-) TimerEvent: {}
+[15.718524] (-) TimerEvent: {}
+[15.820870] (-) TimerEvent: {}
+[15.923204] (-) TimerEvent: {}
+[16.025525] (-) TimerEvent: {}
+[16.127997] (-) TimerEvent: {}
+[16.230397] (-) TimerEvent: {}
+[16.332756] (-) TimerEvent: {}
+[16.435033] (-) TimerEvent: {}
+[16.537329] (-) TimerEvent: {}
+[16.639614] (-) TimerEvent: {}
+[16.741914] (-) TimerEvent: {}
+[16.844113] (-) TimerEvent: {}
+[16.946426] (-) TimerEvent: {}
+[17.048741] (-) TimerEvent: {}
+[17.151156] (-) TimerEvent: {}
+[17.253352] (-) TimerEvent: {}
+[17.355696] (-) TimerEvent: {}
+[17.458129] (-) TimerEvent: {}
+[17.560296] (-) TimerEvent: {}
+[17.662571] (-) TimerEvent: {}
+[17.764775] (-) TimerEvent: {}
+[17.867072] (-) TimerEvent: {}
+[17.969317] (-) TimerEvent: {}
+[18.071589] (-) TimerEvent: {}
+[18.174027] (-) TimerEvent: {}
+[18.276222] (-) TimerEvent: {}
+[18.378511] (-) TimerEvent: {}
+[18.480760] (-) TimerEvent: {}
+[18.582963] (-) TimerEvent: {}
+[18.685190] (-) TimerEvent: {}
+[18.787749] (-) TimerEvent: {}
+[18.890127] (-) TimerEvent: {}
+[18.992316] (-) TimerEvent: {}
+[19.094559] (-) TimerEvent: {}
+[19.196987] (-) TimerEvent: {}
+[19.299240] (-) TimerEvent: {}
+[19.401427] (-) TimerEvent: {}
+[19.503709] (-) TimerEvent: {}
+[19.605957] (-) TimerEvent: {}
+[19.708128] (-) TimerEvent: {}
+[19.810422] (-) TimerEvent: {}
+[19.912729] (-) TimerEvent: {}
+[20.015032] (-) TimerEvent: {}
+[20.117250] (-) TimerEvent: {}
+[20.219469] (-) TimerEvent: {}
+[20.321684] (-) TimerEvent: {}
+[20.423970] (-) TimerEvent: {}
+[20.526128] (-) TimerEvent: {}
+[20.628313] (-) TimerEvent: {}
+[20.730544] (-) TimerEvent: {}
+[20.833005] (-) TimerEvent: {}
+[20.935338] (-) TimerEvent: {}
+[21.037614] (-) TimerEvent: {}
+[21.139920] (-) TimerEvent: {}
+[21.242150] (-) TimerEvent: {}
+[21.344451] (-) TimerEvent: {}
+[21.446667] (-) TimerEvent: {}
+[21.548955] (-) TimerEvent: {}
+[21.651135] (-) TimerEvent: {}
+[21.753287] (-) TimerEvent: {}
+[21.855585] (-) TimerEvent: {}
+[21.958375] (-) TimerEvent: {}
+[22.060703] (-) TimerEvent: {}
+[22.163030] (-) TimerEvent: {}
+[22.265276] (-) TimerEvent: {}
+[22.367529] (-) TimerEvent: {}
+[22.469736] (-) TimerEvent: {}
+[22.571966] (-) TimerEvent: {}
+[22.674169] (-) TimerEvent: {}
+[22.776396] (-) TimerEvent: {}
+[22.878797] (-) TimerEvent: {}
+[22.981485] (-) TimerEvent: {}
+[23.083537] (-) TimerEvent: {}
+[23.185901] (-) TimerEvent: {}
+[23.288082] (-) TimerEvent: {}
+[23.390393] (-) TimerEvent: {}
+[23.492613] (-) TimerEvent: {}
+[23.594782] (-) TimerEvent: {}
+[23.697013] (-) TimerEvent: {}
+[23.799350] (-) TimerEvent: {}
+[23.901718] (-) TimerEvent: {}
+[24.004189] (-) TimerEvent: {}
+[24.106561] (-) TimerEvent: {}
+[24.208755] (-) TimerEvent: {}
+[24.311062] (-) TimerEvent: {}
+[24.413335] (-) TimerEvent: {}
+[24.515595] (-) TimerEvent: {}
+[24.617855] (-) TimerEvent: {}
+[24.720061] (-) TimerEvent: {}
+[24.822415] (-) TimerEvent: {}
+[24.924716] (-) TimerEvent: {}
+[25.027125] (-) TimerEvent: {}
+[25.129515] (-) TimerEvent: {}
+[25.231933] (-) TimerEvent: {}
+[25.334312] (-) TimerEvent: {}
+[25.436648] (-) TimerEvent: {}
+[25.539048] (-) TimerEvent: {}
+[25.641244] (-) TimerEvent: {}
+[25.743449] (-) TimerEvent: {}
+[25.845673] (-) TimerEvent: {}
+[25.948068] (-) TimerEvent: {}
+[26.050480] (-) TimerEvent: {}
+[26.153037] (-) TimerEvent: {}
+[26.255279] (-) TimerEvent: {}
+[26.357577] (-) TimerEvent: {}
+[26.459923] (-) TimerEvent: {}
+[26.562188] (-) TimerEvent: {}
+[26.664406] (-) TimerEvent: {}
+[26.766631] (-) TimerEvent: {}
+[26.868916] (-) TimerEvent: {}
+[26.971269] (-) TimerEvent: {}
+[27.073759] (-) TimerEvent: {}
+[27.176355] (-) TimerEvent: {}
+[27.278682] (-) TimerEvent: {}
+[27.380945] (-) TimerEvent: {}
+[27.483165] (-) TimerEvent: {}
+[27.585372] (-) TimerEvent: {}
+[27.687585] (-) TimerEvent: {}
+[27.789877] (-) TimerEvent: {}
+[27.892169] (-) TimerEvent: {}
+[27.994345] (-) TimerEvent: {}
+[28.096577] (-) TimerEvent: {}
+[28.198978] (-) TimerEvent: {}
+[28.301299] (-) TimerEvent: {}
+[28.403654] (-) TimerEvent: {}
+[28.506005] (-) TimerEvent: {}
+[28.608239] (-) TimerEvent: {}
+[28.710452] (-) TimerEvent: {}
+[28.812713] (-) TimerEvent: {}
+[28.915085] (-) TimerEvent: {}
+[29.017207] (-) TimerEvent: {}
+[29.119530] (-) TimerEvent: {}
+[29.222041] (-) TimerEvent: {}
+[29.324393] (-) TimerEvent: {}
+[29.426639] (-) TimerEvent: {}
+[29.529002] (-) TimerEvent: {}
+[29.631138] (-) TimerEvent: {}
+[29.733408] (-) TimerEvent: {}
+[29.835643] (-) TimerEvent: {}
+[29.937941] (-) TimerEvent: {}
+[30.040290] (-) TimerEvent: {}
+[30.144016] (-) TimerEvent: {}
+[30.247640] (-) TimerEvent: {}
+[30.350771] (-) TimerEvent: {}
+[30.454482] (-) TimerEvent: {}
+[30.558103] (-) TimerEvent: {}
+[30.661705] (-) TimerEvent: {}
+[30.765436] (-) TimerEvent: {}
+[30.869064] (-) TimerEvent: {}
+[30.971338] (-) TimerEvent: {}
+[31.073675] (-) TimerEvent: {}
+[31.175966] (-) TimerEvent: {}
+[31.278268] (-) TimerEvent: {}
+[31.380764] (-) TimerEvent: {}
+[31.483113] (-) TimerEvent: {}
+[31.585299] (-) TimerEvent: {}
+[31.687478] (-) TimerEvent: {}
+[31.789772] (-) TimerEvent: {}
+[31.892135] (-) TimerEvent: {}
+[31.994404] (-) TimerEvent: {}
+[32.096707] (-) TimerEvent: {}
+[32.199006] (-) TimerEvent: {}
+[32.301232] (-) TimerEvent: {}
+[32.403780] (-) TimerEvent: {}
+[32.506120] (-) TimerEvent: {}
+[32.608297] (-) TimerEvent: {}
+[32.710476] (-) TimerEvent: {}
+[32.812734] (-) TimerEvent: {}
+[32.915071] (-) TimerEvent: {}
+[33.017260] (-) TimerEvent: {}
+[33.119528] (-) TimerEvent: {}
+[33.221754] (-) TimerEvent: {}
+[33.324041] (-) TimerEvent: {}
+[33.426365] (-) TimerEvent: {}
+[33.528668] (-) TimerEvent: {}
+[33.630987] (-) TimerEvent: {}
+[33.733201] (-) TimerEvent: {}
+[33.835506] (-) TimerEvent: {}
+[33.937785] (-) TimerEvent: {}
+[34.040091] (-) TimerEvent: {}
+[34.142480] (-) TimerEvent: {}
+[34.244769] (-) TimerEvent: {}
+[34.347074] (-) TimerEvent: {}
+[34.449455] (-) TimerEvent: {}
+[34.552185] (-) TimerEvent: {}
+[34.654426] (-) TimerEvent: {}
+[34.756745] (-) TimerEvent: {}
+[34.859195] (-) TimerEvent: {}
+[34.961543] (-) TimerEvent: {}
+[35.063918] (-) TimerEvent: {}
+[35.166164] (-) TimerEvent: {}
+[35.268426] (-) TimerEvent: {}
+[35.370706] (-) TimerEvent: {}
+[35.473112] (-) TimerEvent: {}
+[35.575523] (-) TimerEvent: {}
+[35.677912] (-) TimerEvent: {}
+[35.780300] (-) TimerEvent: {}
+[35.882638] (-) TimerEvent: {}
+[35.985182] (-) TimerEvent: {}
+[36.087985] (-) TimerEvent: {}
+[36.190231] (-) TimerEvent: {}
+[36.292532] (-) TimerEvent: {}
+[36.395182] (-) TimerEvent: {}
+[36.497575] (-) TimerEvent: {}
+[36.587565] (robot_sim_ros2_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_sim_ros2_node\x1b[0m\n'}
+[36.598370] (-) TimerEvent: {}
+[36.700942] (-) TimerEvent: {}
+[36.803527] (-) TimerEvent: {}
+[36.905975] (-) TimerEvent: {}
+[37.008489] (-) TimerEvent: {}
+[37.110946] (-) TimerEvent: {}
+[37.213392] (-) TimerEvent: {}
+[37.315744] (-) TimerEvent: {}
+[37.418080] (-) TimerEvent: {}
+[37.520419] (-) TimerEvent: {}
+[37.622723] (-) TimerEvent: {}
+[37.725205] (-) TimerEvent: {}
+[37.827636] (-) TimerEvent: {}
+[37.930072] (-) TimerEvent: {}
+[38.032295] (-) TimerEvent: {}
+[38.118861] (robot_sim_ros2_pkg) StdoutLine: {'line': b'[100%] Built target robot_sim_ros2_node\n'}
+[38.132796] (-) TimerEvent: {}
+[38.169972] (robot_sim_ros2_pkg) CommandEnded: {'returncode': 0}
+[38.233455] (-) TimerEvent: {}
+[38.271644] (robot_sim_ros2_pkg) JobProgress: {'identifier': 'robot_sim_ros2_pkg', 'progress': 'install'}
+[38.309797] (robot_sim_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg'], 'cwd': '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgo'), ('SSH_CLIENT', '192.168.1.165 60066 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rgo'), ('OLDPWD', '/home/rgo/ros2/capra'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rgo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.165 60066 192.168.1.113 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[38.333885] (-) TimerEvent: {}
+[38.338705] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.342122] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/lib/robot_sim_ros2_pkg/robot_sim_ros2_node\n'}
+[38.363592] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/lib/robot_sim_ros2_pkg/robot_sim_ros2_node" to ""\n'}
+[38.370148] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/robot_sim_ros2_pkg\n'}
+[38.374507] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/robot_sim_ros2_pkg\n'}
+[38.380698] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/ament_prefix_path.sh\n'}
+[38.383938] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[38.393853] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/path.sh\n'}
+[38.394823] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/environment/path.dsv\n'}
+[38.395394] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.bash\n'}
+[38.395976] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.sh\n'}
+[38.396488] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.zsh\n'}
+[38.396990] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/local_setup.dsv\n'}
+[38.397480] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/package.dsv\n'}
+[38.397985] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/ament_index/resource_index/packages/robot_sim_ros2_pkg\n'}
+[38.398466] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/cmake/robot_sim_ros2_pkgConfig.cmake\n'}
+[38.398966] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/cmake/robot_sim_ros2_pkgConfig-version.cmake\n'}
+[38.415124] (robot_sim_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg/share/robot_sim_ros2_pkg/package.xml\n'}
+[38.417642] (robot_sim_ros2_pkg) CommandEnded: {'returncode': 0}
+[38.436869] (-) TimerEvent: {}
+[38.538421] (-) TimerEvent: {}
+[38.639421] (-) TimerEvent: {}
+[38.732410] (rgo_ros2_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rgo_ros2_node\x1b[0m\n'}
+[38.744041] (-) TimerEvent: {}
+[38.787012] (robot_sim_ros2_pkg) JobEnded: {'identifier': 'robot_sim_ros2_pkg', 'rc': 0}
+[38.844315] (-) TimerEvent: {}
+[38.945290] (-) TimerEvent: {}
+[39.046178] (-) TimerEvent: {}
+[39.147419] (-) TimerEvent: {}
+[39.248735] (-) TimerEvent: {}
+[39.349972] (-) TimerEvent: {}
+[39.451125] (-) TimerEvent: {}
+[39.552205] (-) TimerEvent: {}
+[39.653392] (-) TimerEvent: {}
+[39.754110] (-) TimerEvent: {}
+[39.854772] (-) TimerEvent: {}
+[39.955475] (-) TimerEvent: {}
+[40.056267] (-) TimerEvent: {}
+[40.156972] (-) TimerEvent: {}
+[40.258535] (-) TimerEvent: {}
+[40.291149] (rgo_ros2_pkg) StdoutLine: {'line': b'[100%] Built target rgo_ros2_node\n'}
+[40.358854] (-) TimerEvent: {}
+[40.389709] (rgo_ros2_pkg) CommandEnded: {'returncode': 0}
+[40.459291] (-) TimerEvent: {}
+[40.519282] (rgo_ros2_pkg) JobProgress: {'identifier': 'rgo_ros2_pkg', 'progress': 'install'}
+[40.521620] (rgo_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg'], 'cwd': '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgo'), ('SSH_CLIENT', '192.168.1.165 60066 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rgo'), ('OLDPWD', '/home/rgo/ros2/capra'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rgo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.165 60066 192.168.1.113 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[40.559707] (-) TimerEvent: {}
+[40.588606] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.590256] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/lib/rgo_ros2_pkg/rgo_ros2_node\n'}
+[40.606224] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/lib/rgo_ros2_pkg/rgo_ros2_node" to ""\n'}
+[40.607574] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/rgo_ros2_pkg\n'}
+[40.608876] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/rgo_ros2_pkg\n'}
+[40.610351] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/environment/ament_prefix_path.sh\n'}
+[40.611477] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[40.613068] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/environment/path.sh\n'}
+[40.614411] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/environment/path.dsv\n'}
+[40.616170] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/local_setup.bash\n'}
+[40.617227] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/local_setup.sh\n'}
+[40.618034] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/local_setup.zsh\n'}
+[40.618777] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/local_setup.dsv\n'}
+[40.621498] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.dsv\n'}
+[40.622343] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/ament_index/resource_index/packages/rgo_ros2_pkg\n'}
+[40.623011] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/cmake/rgo_ros2_pkgConfig.cmake\n'}
+[40.623641] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/cmake/rgo_ros2_pkgConfig-version.cmake\n'}
+[40.624467] (rgo_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.xml\n'}
+[40.635242] (rgo_ros2_pkg) CommandEnded: {'returncode': 0}
+[40.659955] (-) TimerEvent: {}
+[40.761541] (-) TimerEvent: {}
+[40.863333] (-) TimerEvent: {}
+[40.968035] (-) TimerEvent: {}
+[41.025482] (rgo_ros2_pkg) JobEnded: {'identifier': 'rgo_ros2_pkg', 'rc': 0}
+[41.032012] (-) EventReactorShutdown: {}

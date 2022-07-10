@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target rgo_ros2_node[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m
-[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:12:10:[m[K [01;31m[Kfatal error: [m[Kopt/ros/foxy/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl: No such file or directory
-   12 | #include [01;31m[K<opt/ros/foxy/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/rgo_ros2_node.dir/build.make:63: CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgo_ros2_node.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

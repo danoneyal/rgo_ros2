@@ -1,5 +1,0 @@
-[0.022s] Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j8 -l8
-[0.061s] [35m[1mScanning dependencies of target rgo_ros2_node[0m
-[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m
-[4.441s] [100%] [32m[1mLinking CXX executable rgo_ros2_node[0m
-[4.657s] [100%] Built target rgo_ros2_node

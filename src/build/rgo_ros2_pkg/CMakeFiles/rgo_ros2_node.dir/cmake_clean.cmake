@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/rgo_ros2_node.dir/src/main.cpp.o"
   "CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o"
   "rgo_ros2_node"
   "rgo_ros2_node.pdb"

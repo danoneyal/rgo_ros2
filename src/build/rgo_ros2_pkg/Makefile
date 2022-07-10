@@ -206,6 +206,33 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/rgo_ros2_node.dir/build.make CMakeFiles/rgo_ros2_node.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/rgo_ros2_node.dir/build.make CMakeFiles/rgo_ros2_node.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/rgo_ros2_node.dir/build.make CMakeFiles/rgo_ros2_node.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 src/rgo_ros2_node.o: src/rgo_ros2_node.cpp.o
 
 .PHONY : src/rgo_ros2_node.o
@@ -249,6 +276,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... rgo_ros2_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/rgo_ros2_node.o"
 	@echo "... src/rgo_ros2_node.i"
 	@echo "... src/rgo_ros2_node.s"

@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target rgo_ros2_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:93:33:[m[K [01;31m[Kerror: [m[K‘[01m[KRgoRos2NodeDummy[m[K’ was not declared in this scope; did you mean ‘[01m[KRgoRos2Node[m[K’?
+   93 |   rclcpp::spin(std::make_shared<[01;31m[KRgoRos2NodeDummy[m[K>());
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[KRgoRos2Node[m[K
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:93:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   93 |   rclcpp::spin(std::make_shared<RgoRos2NodeDummy>([01;31m[K)[m[K);
+      |                                                   [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:3[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:93:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   93 |   rclcpp::spin(std::make_shared<RgoRos2NodeDummy>([01;31m[K)[m[K);
+      |                                                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/rgo_ros2_node.dir/build.make:63: CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgo_ros2_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

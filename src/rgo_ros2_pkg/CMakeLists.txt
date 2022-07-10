@@ -26,7 +26,17 @@ find_package(nav_msgs REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-add_executable(rgo_ros2_node src/rgo_ros2_node.cpp)
+add_executable(rgo_ros2_node 
+              src/main.cpp
+              src/rgo_ros2_node.cpp
+              include/rgo_ros2_node.h)
+
+
+target_include_directories(rgo_ros2_node PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>  
+)
+
 ament_target_dependencies(rgo_ros2_node rclcpp std_msgs geometry_msgs nav_msgs)
 
 

@@ -1,0 +1,140 @@
+[0.561s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'rgo_ros2_pkg']
+[0.561s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa98ffac0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['rgo_ros2_pkg'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa98ffac0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa988a070>)
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.658s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rgo/ros2/capra/src'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(rgo_ros2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(rgo_ros2_pkg) by extension 'ignore'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(rgo_ros2_pkg) by extension 'ignore_ament_install'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(rgo_ros2_pkg) by extensions ['colcon_pkg']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(rgo_ros2_pkg) by extension 'colcon_pkg'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(rgo_ros2_pkg) by extensions ['colcon_meta']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(rgo_ros2_pkg) by extension 'colcon_meta'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(rgo_ros2_pkg) by extensions ['ros']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(rgo_ros2_pkg) by extension 'ros'
+[0.719s] DEBUG:colcon.colcon_core.package_identification:Package 'rgo_ros2_pkg' with type 'ros.ament_cmake' and name 'rgo_ros2_pkg'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(robot_sim_ros2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(robot_sim_ros2_pkg) by extension 'ignore'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(robot_sim_ros2_pkg) by extension 'ignore_ament_install'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(robot_sim_ros2_pkg) by extensions ['colcon_pkg']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(robot_sim_ros2_pkg) by extension 'colcon_pkg'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(robot_sim_ros2_pkg) by extensions ['colcon_meta']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(robot_sim_ros2_pkg) by extension 'colcon_meta'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(robot_sim_ros2_pkg) by extensions ['ros']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(robot_sim_ros2_pkg) by extension 'ros'
+[0.724s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_sim_ros2_pkg' with type 'ros.ament_cmake' and name 'robot_sim_ros2_pkg'
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.725s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.725s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.725s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.725s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.799s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_sim_ros2_pkg' in 'robot_sim_ros2_pkg'
+[0.802s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.802s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.813s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rgo/ros2/capra/src/install
+[0.820s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'rgo_ros2_pkg' build argument 'cmake_args' from command line to 'None'
+[1.152s] Level 5:colcon.colcon_core.verb:set package 'rgo_ros2_pkg' build argument 'cmake_target' from command line to 'None'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rgo_ros2_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rgo_ros2_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rgo_ros2_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rgo_ros2_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rgo_ros2_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rgo_ros2_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.153s] Level 5:colcon.colcon_core.verb:set package 'rgo_ros2_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.154s] DEBUG:colcon.colcon_core.verb:Building package 'rgo_ros2_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg', 'merge_install': False, 'path': '/home/rgo/ros2/capra/src/rgo_ros2_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.157s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.176s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rgo/ros2/capra/src/rgo_ros2_pkg' with build type 'ament_cmake'
+[1.178s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rgo/ros2/capra/src/rgo_ros2_pkg'
+[1.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6
+[1.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/rgo/ros2/capra/src/build/rgo_ros2_pkg
+[1.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rgo_ros2_pkg)
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg' for CMake module files
+[1.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/rgo/ros2/capra/src/build/rgo_ros2_pkg
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg' for CMake config files
+[1.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('rgo_ros2_pkg', 'cmake_prefix_path')
+[1.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/hook/cmake_prefix_path.ps1'
+[1.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/hook/cmake_prefix_path.dsv'
+[1.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/hook/cmake_prefix_path.sh'
+[1.920s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/lib'
+[1.922s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/bin'
+[1.923s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/lib/pkgconfig/rgo_ros2_pkg.pc'
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/lib/python3.8/site-packages'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/bin'
+[1.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.ps1'
+[1.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.dsv'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.sh'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.bash'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.zsh'
+[2.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/colcon-core/packages/rgo_ros2_pkg)
+[2.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rgo_ros2_pkg)
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg' for CMake module files
+[2.217s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg' for CMake config files
+[2.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('rgo_ros2_pkg', 'cmake_prefix_path')
+[2.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/hook/cmake_prefix_path.ps1'
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/hook/cmake_prefix_path.dsv'
+[2.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/hook/cmake_prefix_path.sh'
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/lib'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/bin'
+[2.248s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/lib/pkgconfig/rgo_ros2_pkg.pc'
+[2.250s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/lib/python3.8/site-packages'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/bin'
+[2.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.ps1'
+[2.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.dsv'
+[2.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.sh'
+[2.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.bash'
+[2.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.zsh'
+[2.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/colcon-core/packages/rgo_ros2_pkg)
+[2.294s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.302s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.371s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.372s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.378s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.379s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.393s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rgo/ros2/capra/src/install/local_setup.ps1'
+[2.401s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rgo/ros2/capra/src/install/_local_setup_util_ps1.py'
+[2.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rgo/ros2/capra/src/install/setup.ps1'
+[2.423s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rgo/ros2/capra/src/install/local_setup.sh'
+[2.428s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rgo/ros2/capra/src/install/_local_setup_util_sh.py'
+[2.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rgo/ros2/capra/src/install/setup.sh'
+[2.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rgo/ros2/capra/src/install/local_setup.bash'
+[2.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rgo/ros2/capra/src/install/setup.bash'
+[2.464s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rgo/ros2/capra/src/install/local_setup.zsh'
+[2.470s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rgo/ros2/capra/src/install/setup.zsh'

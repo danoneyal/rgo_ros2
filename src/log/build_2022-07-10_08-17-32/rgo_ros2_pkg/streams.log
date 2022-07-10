@@ -1,0 +1,5 @@
+[0.105s] Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6
+[0.176s] CMake Error: The source directory "/home/rgo/ros2/capra/src/rgo_ros2_pkg" does not exist.
+[0.183s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.187s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.191s] Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6

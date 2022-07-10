@@ -99,7 +99,7 @@ robot_sim_ros2_node: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp
 robot_sim_ros2_node: /opt/ros/foxy/lib/librmw_implementation.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/librmw.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/librcl_logging_spdlog.so
-robot_sim_ros2_node: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0
+robot_sim_ros2_node: /usr/lib/aarch64-linux-gnu/libspdlog.so.1.5.0
 robot_sim_ros2_node: /opt/ros/foxy/lib/librcl_yaml_param_parser.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/libyaml.so
 robot_sim_ros2_node: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so

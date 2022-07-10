@@ -1,0 +1,15 @@
+[0.060s] Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6
+[0.205s] [35m[1mScanning dependencies of target rgo_ros2_node[0m
+[0.295s] [ 50%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m
+[5.578s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:20:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid RgoRos2Node::shutdown()[m[K’
+[5.579s]    20 | void [01;31m[KRgoRos2Node[m[K::shutdown()
+[5.580s]       |      [01;31m[K^~~~~~~~~~~[m[K
+[5.580s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:20:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid RgoRos2Node::shutdown()[m[K’
+[5.580s] In file included from [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:1[m[K:
+[5.581s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/include/rgo_ros2_node.h:17:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RgoRos2Node[m[K’ defined here
+[5.581s]    17 | class [01;36m[KRgoRos2Node[m[K : public rclcpp::Node
+[5.582s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[15.429s] make[2]: *** [CMakeFiles/rgo_ros2_node.dir/build.make:63: CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o] Error 1
+[15.445s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgo_ros2_node.dir/all] Error 2
+[15.461s] make: *** [Makefile:141: all] Error 2
+[15.476s] Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6
