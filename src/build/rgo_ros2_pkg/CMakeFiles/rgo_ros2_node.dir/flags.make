@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Wpedantic -std=gnu++14
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/rgo/ros2/capra/src/rgo_ros2_pkg/include -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/rgo/ros2/capra/src/rgo_ros2_pkg/include -I/usr/local/lib/cmake/PerceptionEngineSDK/../../.. -I/usr/include/eigen3 -isystem /opt/ros/foxy/include 
 

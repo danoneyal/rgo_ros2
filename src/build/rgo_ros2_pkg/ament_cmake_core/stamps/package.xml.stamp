@@ -4,7 +4,7 @@
   <name>rgo_ros2_pkg</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="eyal.danon@t-go.io">rgo</maintainer>
+  <maintainer email="eyal.danon@rgorobotica.ai">rgo</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

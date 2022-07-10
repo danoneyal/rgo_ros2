@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "rgo_ros2_pkg")
 set(rgo_ros2_pkg_VERSION "0.0.0")
-set(rgo_ros2_pkg_MAINTAINER "rgo <eyal.danon@t-go.io>")
+set(rgo_ros2_pkg_MAINTAINER "rgo <eyal.danon@rgorobotica.ai>")
 set(rgo_ros2_pkg_BUILD_DEPENDS "rclcpp" "std_msgs" "geometry_msgs" "nav_msgs")
 set(rgo_ros2_pkg_BUILDTOOL_DEPENDS "ament_cmake")
 set(rgo_ros2_pkg_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs" "geometry_msgs" "nav_msgs")

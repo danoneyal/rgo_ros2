@@ -19,6 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/rgo/ros2/capra/src/rgo_ros2_pkg/include"
+  "/usr/local/lib/cmake/PerceptionEngineSDK/../../.."
+  "/usr/include/eigen3"
   "/opt/ros/foxy/include"
   )
 

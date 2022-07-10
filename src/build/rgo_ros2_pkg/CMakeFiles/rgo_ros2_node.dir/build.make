@@ -94,6 +94,7 @@ rgo_ros2_node_EXTERNAL_OBJECTS =
 rgo_ros2_node: CMakeFiles/rgo_ros2_node.dir/src/main.cpp.o
 rgo_ros2_node: CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o
 rgo_ros2_node: CMakeFiles/rgo_ros2_node.dir/build.make
+rgo_ros2_node: /usr/local/lib/libRgoSDK.so
 rgo_ros2_node: /opt/ros/foxy/lib/librclcpp.so
 rgo_ros2_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
 rgo_ros2_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_c.so

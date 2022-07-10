@@ -1,0 +1,33 @@
+[0.060s] Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6
+[0.158s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.230s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.831s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.926s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.937s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.251s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.407s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.413s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.883s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.992s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.244s] CMake Error at CMakeLists.txt:31 (find_package):
+[2.245s]   By not providing "Findsquid_mc.cmake" in CMAKE_MODULE_PATH this project has
+[2.245s]   asked CMake to find a package configuration file provided by "squid_mc",
+[2.246s]   but CMake did not find one.
+[2.246s] 
+[2.246s]   Could not find a package configuration file provided by "squid_mc" with any
+[2.247s]   of the following names:
+[2.248s] 
+[2.248s]     squid_mcConfig.cmake
+[2.249s]     squid_mc-config.cmake
+[2.249s] 
+[2.250s]   Add the installation prefix of "squid_mc" to CMAKE_PREFIX_PATH or set
+[2.250s]   "squid_mc_DIR" to a directory containing one of the above files.  If
+[2.250s]   "squid_mc" provides a separate development package or SDK, be sure it has
+[2.251s]   been installed.
+[2.251s] 
+[2.251s] 
+[2.252s] -- Configuring incomplete, errors occurred!
+[2.252s] See also "/home/rgo/ros2/capra/src/build/rgo_ros2_pkg/CMakeFiles/CMakeOutput.log".
+[2.253s] See also "/home/rgo/ros2/capra/src/build/rgo_ros2_pkg/CMakeFiles/CMakeError.log".
+[2.273s] make: *** [Makefile:296: cmake_check_build_system] Error 1
+[2.296s] Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6
