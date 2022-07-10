@@ -1,0 +1,30 @@
+[0.064s] Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6
+[0.249s] [35m[1mScanning dependencies of target rgo_ros2_node[0m
+[0.368s] [ 33%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m
+[10.632s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RgoRos2Node::timer_callback()[m[K’:
+[10.633s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:129:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmessage[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[10.633s]   129 |   auto [01;35m[Kmessage[m[K = geometry_msgs::msg::Pose();
+[10.634s]       |        [01;35m[K^~~~~~~[m[K
+[32.919s] [ 66%] [32m[1mLinking CXX executable rgo_ros2_node[0m
+[34.992s] [100%] Built target rgo_ros2_node
+[35.059s] Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6
+[35.314s] Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/rgo/ros2/capra/src/build/rgo_ros2_pkg
+[35.359s] -- Install configuration: ""
+[35.361s] -- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/lib/rgo_ros2_pkg/rgo_ros2_node
+[35.387s] -- Set runtime path of "/home/rgo/ros2/capra/src/install/rgo_ros2_pkg/lib/rgo_ros2_pkg/rgo_ros2_node" to ""
+[35.388s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/rgo_ros2_pkg
+[35.390s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/rgo_ros2_pkg
+[35.392s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/environment/ament_prefix_path.sh
+[35.393s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/environment/ament_prefix_path.dsv
+[35.394s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/environment/path.sh
+[35.416s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/environment/path.dsv
+[35.417s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/local_setup.bash
+[35.419s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/local_setup.sh
+[35.420s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/local_setup.zsh
+[35.421s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/local_setup.dsv
+[35.422s] -- Installing: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.dsv
+[35.423s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/ament_index/resource_index/packages/rgo_ros2_pkg
+[35.424s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/cmake/rgo_ros2_pkgConfig.cmake
+[35.425s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/cmake/rgo_ros2_pkgConfig-version.cmake
+[35.426s] -- Up-to-date: /home/rgo/ros2/capra/src/install/rgo_ros2_pkg/share/rgo_ros2_pkg/package.xml
+[35.445s] Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/rgo/ros2/capra/src/build/rgo_ros2_pkg

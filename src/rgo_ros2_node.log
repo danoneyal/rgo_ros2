@@ -1,0 +1,52 @@
+Logging level is set to info
+
+<info,394,../PerceptionEngineImpl/src/lib/HttpControl/PeHttpServer.cpp,32012557>  Starting Perception Engine HTTP Server
+<info,235,../PerceptionEngineImpl/src/lib/ClientImpl/source/LocalizationServiceImpl.cpp,32012558>  Added callback for global map udpates!!!
+<info,359,../PerceptionEngineImpl/src/lib/ClientImpl/source/PerceptionEngineImpl.cpp,32012558>  runtimes services
+<info,55,../RGoLib.Communication/source/comm_client.cpp,32024241>  Connecting to 127.0.0.1:3455 ...
+<info,90,../RGoLib.Communication/source/comm_client.cpp,32024242>  Client Connected to 127.0.0.1:3455!
+<info,55,../RGoLib.Communication/source/comm_client.cpp,32024242>  Connecting to 127.0.0.1:3456 ...
+<info,167,../PerceptionEngineImpl/src/lib/ClientImpl/source/PerceptionEngineImpl.cpp,32024242>  Location service connection status changed to true
+<info,90,../RGoLib.Communication/source/comm_client.cpp,32024243>  Client Connected to 127.0.0.1:3456!
+<info,153,../PerceptionEngineImpl/src/lib/ClientImpl/source/PerceptionEngineImpl.cpp,32024244>  Robot service connection status changed to true
+<info,423,../PerceptionEngineImpl/src/lib/ClientImpl/source/PerceptionEngineImpl.cpp,32024245>  Connected! Starting!
+<info,114,../PerceptionEngineImpl/src/lib/ClientImpl/source/LocalizationServiceImpl.cpp,32024247>  Localization Service configured
+<info,127,../PerceptionEngineImpl/src/lib/ClientImpl/source/LocalizationServiceImpl.cpp,32024248>  Registered for global map updates!!!
+<info,436,../PerceptionEngineImpl/src/lib/ClientImpl/source/PerceptionEngineImpl.cpp,32024248>  Perception Engine Started.
+<error,131,../RGoLib.Communication/source/session.cpp,32033990>  RgoCommSession 3456 error: End of file
+<info,153,../PerceptionEngineImpl/src/lib/ClientImpl/source/PerceptionEngineImpl.cpp,32033991>  Robot service connection status changed to false
+<info,46,../RGoLib.Communication/source/comm_client.cpp,32033991>  Terminated RGo Client.
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32034441>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32034941>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32035441>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32035940>  End point not connected!
+<error,131,../RGoLib.Communication/source/session.cpp,32036106>  RgoCommSession 3455 error: End of file
+<info,167,../PerceptionEngineImpl/src/lib/ClientImpl/source/PerceptionEngineImpl.cpp,32036107>  Location service connection status changed to false
+<info,46,../RGoLib.Communication/source/comm_client.cpp,32036107>  Terminated RGo Client.
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32036440>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32036940>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32037440>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32037940>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32038441>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32038941>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32039440>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32039941>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32040439>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32040940>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32041441>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32041941>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32042441>  End point not connected!
+<error,132,../RGoLib.Communication/source/rpc_client.cpp,32042940>  End point not connected!
+<info,406,../PerceptionEngineImpl/src/lib/HttpControl/PeHttpServer.cpp,32043121>  Stopping Perception Engine HTTP Server
+<info,54,../PerceptionEngineImpl/src/lib/ClientImpl/source/PerceptionEngineImpl.cpp,32043122>  Stopping Perception Engine Connection...
+<info,46,../RGoLib.Communication/source/comm_client.cpp,32043124>  Terminated RGo Client.
+<info,46,../RGoLib.Communication/source/comm_client.cpp,32043125>  Terminated RGo Client.
+<info,85,../PerceptionEngineImpl/src/lib/ClientImpl/source/PerceptionEngineImpl.cpp,32043126>  Perception Engine Disconnected.
+<info,444,../PerceptionEngineImpl/src/lib/ClientImpl/source/PerceptionEngineImpl.cpp,32043127>  Shutting down runtime...
+<info,452,../PerceptionEngineImpl/src/lib/ClientImpl/source/PerceptionEngineImpl.cpp,32043471>  Runtime closed, took 0 seconds
+<info,453,../PerceptionEngineImpl/src/lib/ClientImpl/source/PerceptionEngineImpl.cpp,32043471>  Perception Engine Stopped.
+<info,38,../RGoLib.Communication/source/session.cpp,32043472>  Session 3455 closed.
+<info,38,../RGoLib.Communication/source/session.cpp,32043472>  Session 3456 closed.
+<info,181,../Utils/source/Logger.cpp,32043526>  LoggerWorker termination message
+Log is terminated by request
+LoggerWorker terminated

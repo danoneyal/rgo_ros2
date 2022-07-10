@@ -1,0 +1,4 @@
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RgoRos2Node::LocalizationCallback(const Pe::PeService::PoseVelocityFrame&)[m[K’:
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:38:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kframe[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   38 | void RgoRos2Node::LocalizationCallback([01;35m[Kconst Pe::PeService::PoseVelocityFrame &frame[m[K)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K

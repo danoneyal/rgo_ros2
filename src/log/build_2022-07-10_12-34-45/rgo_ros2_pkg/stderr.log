@@ -1,0 +1,8 @@
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RgoRos2Node::LocalizationCallback(const Pe::PeService::PoseVelocityFrame&)[m[K’:
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:46:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct Pe::PeService::Header[m[K’ has no member named ‘[01m[Kts_arrival[m[K’; did you mean ‘[01m[Kts_arrival_sec[m[K’?
+   46 |   pose.header.stamp.nanosec =frame.header.[01;31m[Kts_arrival[m[K;
+      |                                           [01;31m[K^~~~~~~~~~[m[K
+      |                                           [32m[Kts_arrival_sec[m[K
+make[2]: *** [CMakeFiles/rgo_ros2_node.dir/build.make:76: CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgo_ros2_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

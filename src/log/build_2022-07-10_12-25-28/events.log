@@ -1,0 +1,268 @@
+[0.000000] (-) TimerEvent: {}
+[0.003440] (-) JobUnselected: {'identifier': 'robot_sim_ros2_pkg'}
+[0.005183] (rgo_ros2_pkg) JobQueued: {'identifier': 'rgo_ros2_pkg', 'dependencies': OrderedDict()}
+[0.006822] (rgo_ros2_pkg) JobStarted: {'identifier': 'rgo_ros2_pkg'}
+[0.054003] (rgo_ros2_pkg) JobProgress: {'identifier': 'rgo_ros2_pkg', 'progress': 'cmake'}
+[0.059508] (rgo_ros2_pkg) JobProgress: {'identifier': 'rgo_ros2_pkg', 'progress': 'build'}
+[0.064118] (rgo_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg', '--', '-j6', '-l6'], 'cwd': '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rgo'), ('SSH_CLIENT', '192.168.8.249 63381 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rgo/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/rgo/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rgo'), ('OLDPWD', '/home/rgo/ros2/capra'), ('TERM_PROGRAM_VERSION', '1.69.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3ba38dc6-c4d3-4878-bb42-60786252b5f9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rgo/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rgo/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rgo/ros2/capra/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rgo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rgo/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ea3ae98e5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg:/home/rgo/ros2/capra/src/install/rgo_ros2_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.249 63381 192.168.8.120 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rgo/ros2/capra/src/install/robot_sim_ros2_pkg:/home/rgo/ros2/capra/src/install/rgo_ros2_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.101938] (-) TimerEvent: {}
+[0.204442] (-) TimerEvent: {}
+[0.256625] (rgo_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rgo_ros2_node\x1b[0m\n'}
+[0.304616] (-) TimerEvent: {}
+[0.379346] (rgo_ros2_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o\x1b[0m\n'}
+[0.405397] (-) TimerEvent: {}
+[0.508876] (-) TimerEvent: {}
+[0.610821] (-) TimerEvent: {}
+[0.715497] (-) TimerEvent: {}
+[0.819235] (-) TimerEvent: {}
+[0.922637] (-) TimerEvent: {}
+[1.025950] (-) TimerEvent: {}
+[1.129216] (-) TimerEvent: {}
+[1.232635] (-) TimerEvent: {}
+[1.336022] (-) TimerEvent: {}
+[1.439257] (-) TimerEvent: {}
+[1.542555] (-) TimerEvent: {}
+[1.645823] (-) TimerEvent: {}
+[1.749052] (-) TimerEvent: {}
+[1.852727] (-) TimerEvent: {}
+[1.958551] (-) TimerEvent: {}
+[2.060857] (-) TimerEvent: {}
+[2.163096] (-) TimerEvent: {}
+[2.265290] (-) TimerEvent: {}
+[2.367705] (-) TimerEvent: {}
+[2.470048] (-) TimerEvent: {}
+[2.572231] (-) TimerEvent: {}
+[2.674538] (-) TimerEvent: {}
+[2.776843] (-) TimerEvent: {}
+[2.879154] (-) TimerEvent: {}
+[2.981532] (-) TimerEvent: {}
+[3.083846] (-) TimerEvent: {}
+[3.186043] (-) TimerEvent: {}
+[3.288175] (-) TimerEvent: {}
+[3.390599] (-) TimerEvent: {}
+[3.492979] (-) TimerEvent: {}
+[3.595291] (-) TimerEvent: {}
+[3.697536] (-) TimerEvent: {}
+[3.799067] (-) TimerEvent: {}
+[3.900441] (-) TimerEvent: {}
+[4.002233] (-) TimerEvent: {}
+[4.104696] (-) TimerEvent: {}
+[4.207003] (-) TimerEvent: {}
+[4.309235] (-) TimerEvent: {}
+[4.411459] (-) TimerEvent: {}
+[4.513950] (-) TimerEvent: {}
+[4.616344] (-) TimerEvent: {}
+[4.718673] (-) TimerEvent: {}
+[4.820982] (-) TimerEvent: {}
+[4.923439] (-) TimerEvent: {}
+[5.025489] (-) TimerEvent: {}
+[5.127914] (-) TimerEvent: {}
+[5.230246] (-) TimerEvent: {}
+[5.332685] (-) TimerEvent: {}
+[5.435209] (-) TimerEvent: {}
+[5.537610] (-) TimerEvent: {}
+[5.640072] (-) TimerEvent: {}
+[5.742432] (-) TimerEvent: {}
+[5.844813] (-) TimerEvent: {}
+[5.947130] (-) TimerEvent: {}
+[6.049455] (-) TimerEvent: {}
+[6.151832] (-) TimerEvent: {}
+[6.254169] (-) TimerEvent: {}
+[6.356564] (-) TimerEvent: {}
+[6.459032] (-) TimerEvent: {}
+[6.561461] (-) TimerEvent: {}
+[6.663836] (-) TimerEvent: {}
+[6.766162] (-) TimerEvent: {}
+[6.868615] (-) TimerEvent: {}
+[6.970953] (-) TimerEvent: {}
+[7.073240] (-) TimerEvent: {}
+[7.175469] (-) TimerEvent: {}
+[7.277688] (-) TimerEvent: {}
+[7.380049] (-) TimerEvent: {}
+[7.482357] (-) TimerEvent: {}
+[7.584804] (-) TimerEvent: {}
+[7.687113] (-) TimerEvent: {}
+[7.789329] (-) TimerEvent: {}
+[7.891370] (-) TimerEvent: {}
+[7.992210] (-) TimerEvent: {}
+[8.092970] (-) TimerEvent: {}
+[8.193717] (-) TimerEvent: {}
+[8.294476] (-) TimerEvent: {}
+[8.395234] (-) TimerEvent: {}
+[8.496027] (-) TimerEvent: {}
+[8.596849] (-) TimerEvent: {}
+[8.697627] (-) TimerEvent: {}
+[8.798443] (-) TimerEvent: {}
+[8.899254] (-) TimerEvent: {}
+[9.000046] (-) TimerEvent: {}
+[9.100827] (-) TimerEvent: {}
+[9.201606] (-) TimerEvent: {}
+[9.302422] (-) TimerEvent: {}
+[9.403218] (-) TimerEvent: {}
+[9.504018] (-) TimerEvent: {}
+[9.604806] (-) TimerEvent: {}
+[9.705589] (-) TimerEvent: {}
+[9.806399] (-) TimerEvent: {}
+[9.907205] (-) TimerEvent: {}
+[10.008437] (-) TimerEvent: {}
+[10.112247] (-) TimerEvent: {}
+[10.215673] (-) TimerEvent: {}
+[10.319108] (-) TimerEvent: {}
+[10.422418] (-) TimerEvent: {}
+[10.525916] (-) TimerEvent: {}
+[10.629294] (-) TimerEvent: {}
+[10.701460] (rgo_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:38:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KClient\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[10.703013] (rgo_ros2_pkg) StderrLine: {'line': b'   38 | void \x1b[01;31m\x1b[KClient\x1b[m\x1b[K::LocalizationCallback(const Pe::PeService::PoseVelocityFrame &frame)\n'}
+[10.703687] (rgo_ros2_pkg) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.704999] (rgo_ros2_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[10.705671] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[10.706197] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.706676] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[10.707132] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.707462] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.707843] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[10.708258] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[10.708550] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.708901] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[10.709218] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/include/rgo_ros2_node.h:16\x1b[m\x1b[K,\n'}
+[10.709534] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:1\x1b[m\x1b[K:\n'}
+[10.709868] (rgo_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid LocalizationCallback(const Pe::PeService::PoseVelocityFrame&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.710191] (rgo_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:41:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[10.710499] (rgo_ros2_pkg) StderrLine: {'line': b'   41 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Sending - position ");\n'}
+[10.710835] (rgo_ros2_pkg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.711152] (rgo_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:41:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[10.711429] (rgo_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:41:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.711778] (rgo_ros2_pkg) StderrLine: {'line': b'   41 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Sending - position ");\n'}
+[10.712126] (rgo_ros2_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.712430] (rgo_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:41:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.712695] (rgo_ros2_pkg) StderrLine: {'line': b'   41 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Sending - position ");\n'}
+[10.713029] (rgo_ros2_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.713351] (rgo_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:41:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.713633] (rgo_ros2_pkg) StderrLine: {'line': b'   41 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Sending - position ");\n'}
+[10.714009] (rgo_ros2_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.714311] (rgo_ros2_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[10.714643] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[10.715002] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.715318] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[10.715639] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.715999] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.716611] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[10.717101] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[10.717453] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.717792] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[10.718103] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/include/rgo_ros2_node.h:16\x1b[m\x1b[K,\n'}
+[10.718441] (rgo_ros2_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:1\x1b[m\x1b[K:\n'}
+[10.718839] (rgo_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:41:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[10.719342] (rgo_ros2_pkg) StderrLine: {'line': b'   41 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Sending - position ");\n'}
+[10.719800] (rgo_ros2_pkg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.720245] (rgo_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:41:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[10.720647] (rgo_ros2_pkg) StderrLine: {'line': b'   41 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Sending - position ");\n'}
+[10.721094] (rgo_ros2_pkg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.721479] (rgo_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:43:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct Pe::PeService::Header\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kts_arrival\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kts_arrival_sec\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.721926] (rgo_ros2_pkg) StderrLine: {'line': b'   43 |   pose.header.stamp.nanosec =frame.header.\x1b[01;31m\x1b[Kts_arrival\x1b[m\x1b[K;\n'}
+[10.722348] (rgo_ros2_pkg) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.722823] (rgo_ros2_pkg) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[Kts_arrival_sec\x1b[m\x1b[K\n'}
+[10.724013] (rgo_ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:54:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_pose_publisher\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.724675] (rgo_ros2_pkg) StderrLine: {'line': b'   54 |   \x1b[01;31m\x1b[K_pose_publisher\x1b[m\x1b[K->publish(pose);\n'}
+[10.725252] (rgo_ros2_pkg) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.729338] (-) TimerEvent: {}
+[10.831253] (-) TimerEvent: {}
+[10.932097] (-) TimerEvent: {}
+[11.032905] (-) TimerEvent: {}
+[11.133678] (-) TimerEvent: {}
+[11.234467] (-) TimerEvent: {}
+[11.335241] (-) TimerEvent: {}
+[11.436038] (-) TimerEvent: {}
+[11.536827] (-) TimerEvent: {}
+[11.637617] (-) TimerEvent: {}
+[11.738376] (-) TimerEvent: {}
+[11.839361] (-) TimerEvent: {}
+[11.941356] (-) TimerEvent: {}
+[12.043784] (-) TimerEvent: {}
+[12.146140] (-) TimerEvent: {}
+[12.248474] (-) TimerEvent: {}
+[12.350824] (-) TimerEvent: {}
+[12.453122] (-) TimerEvent: {}
+[12.555474] (-) TimerEvent: {}
+[12.657846] (-) TimerEvent: {}
+[12.760103] (-) TimerEvent: {}
+[12.862482] (-) TimerEvent: {}
+[12.964835] (-) TimerEvent: {}
+[13.067139] (-) TimerEvent: {}
+[13.169493] (-) TimerEvent: {}
+[13.271854] (-) TimerEvent: {}
+[13.374113] (-) TimerEvent: {}
+[13.476450] (-) TimerEvent: {}
+[13.578803] (-) TimerEvent: {}
+[13.681012] (-) TimerEvent: {}
+[13.783227] (-) TimerEvent: {}
+[13.885533] (-) TimerEvent: {}
+[13.987915] (-) TimerEvent: {}
+[14.090119] (-) TimerEvent: {}
+[14.192351] (-) TimerEvent: {}
+[14.294552] (-) TimerEvent: {}
+[14.396827] (-) TimerEvent: {}
+[14.499122] (-) TimerEvent: {}
+[14.601398] (-) TimerEvent: {}
+[14.703703] (-) TimerEvent: {}
+[14.806025] (-) TimerEvent: {}
+[14.908326] (-) TimerEvent: {}
+[15.010632] (-) TimerEvent: {}
+[15.113007] (-) TimerEvent: {}
+[15.215268] (-) TimerEvent: {}
+[15.317476] (-) TimerEvent: {}
+[15.419848] (-) TimerEvent: {}
+[15.522104] (-) TimerEvent: {}
+[15.624444] (-) TimerEvent: {}
+[15.726708] (-) TimerEvent: {}
+[15.829046] (-) TimerEvent: {}
+[15.931358] (-) TimerEvent: {}
+[16.033661] (-) TimerEvent: {}
+[16.135891] (-) TimerEvent: {}
+[16.238166] (-) TimerEvent: {}
+[16.340515] (-) TimerEvent: {}
+[16.442933] (-) TimerEvent: {}
+[16.545111] (-) TimerEvent: {}
+[16.647470] (-) TimerEvent: {}
+[16.749878] (-) TimerEvent: {}
+[16.852230] (-) TimerEvent: {}
+[16.954608] (-) TimerEvent: {}
+[17.057002] (-) TimerEvent: {}
+[17.159218] (-) TimerEvent: {}
+[17.261536] (-) TimerEvent: {}
+[17.363921] (-) TimerEvent: {}
+[17.466160] (-) TimerEvent: {}
+[17.568270] (-) TimerEvent: {}
+[17.669973] (-) TimerEvent: {}
+[17.772139] (-) TimerEvent: {}
+[17.874409] (-) TimerEvent: {}
+[17.976905] (-) TimerEvent: {}
+[18.079152] (-) TimerEvent: {}
+[18.181393] (-) TimerEvent: {}
+[18.283622] (-) TimerEvent: {}
+[18.385981] (-) TimerEvent: {}
+[18.488140] (-) TimerEvent: {}
+[18.590375] (-) TimerEvent: {}
+[18.692640] (-) TimerEvent: {}
+[18.795038] (-) TimerEvent: {}
+[18.897193] (-) TimerEvent: {}
+[18.999498] (-) TimerEvent: {}
+[19.101863] (-) TimerEvent: {}
+[19.204151] (-) TimerEvent: {}
+[19.306509] (-) TimerEvent: {}
+[19.408690] (-) TimerEvent: {}
+[19.510957] (-) TimerEvent: {}
+[19.613098] (-) TimerEvent: {}
+[19.715404] (-) TimerEvent: {}
+[19.817712] (-) TimerEvent: {}
+[19.925047] (-) TimerEvent: {}
+[19.958872] (rgo_ros2_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/rgo_ros2_node.dir/build.make:76: CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o] Error 1\n'}
+[19.980483] (rgo_ros2_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgo_ros2_node.dir/all] Error 2\n'}
+[19.983054] (rgo_ros2_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[19.984572] (rgo_ros2_pkg) CommandEnded: {'returncode': 2}
+[20.025451] (-) TimerEvent: {}
+[20.127236] (-) TimerEvent: {}
+[20.228981] (-) TimerEvent: {}
+[20.327550] (rgo_ros2_pkg) JobEnded: {'identifier': 'rgo_ros2_pkg', 'rc': 2}
+[20.360045] (-) TimerEvent: {}
+[20.361034] (-) EventReactorShutdown: {}

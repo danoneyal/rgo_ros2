@@ -1,0 +1,4 @@
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid RgoRos2Node::timer_callback()[m[K’:
+[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:129:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmessage[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  129 |   auto [01;35m[Kmessage[m[K = geometry_msgs::msg::Pose();
+      |        [01;35m[K^~~~~~~[m[K

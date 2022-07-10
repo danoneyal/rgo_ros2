@@ -1,0 +1,15 @@
+[0.087s] Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6
+[0.319s] [35m[1mScanning dependencies of target rgo_ros2_node[0m
+[0.468s] [ 33%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m
+[11.149s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:25:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid RgoRos2Node::initPerceptionEngine()[m[K’
+[11.152s]    25 | void [01;31m[KRgoRos2Node[m[K::initPerceptionEngine()
+[11.155s]       |      [01;31m[K^~~~~~~~~~~[m[K
+[11.157s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:25:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid RgoRos2Node::initPerceptionEngine()[m[K’
+[11.160s] In file included from [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:1[m[K:
+[11.162s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/include/rgo_ros2_node.h:27:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RgoRos2Node[m[K’ defined here
+[11.164s]    27 | class [01;36m[KRgoRos2Node[m[K : public rclcpp::Node
+[11.167s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[20.503s] make[2]: *** [CMakeFiles/rgo_ros2_node.dir/build.make:76: CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o] Error 1
+[20.507s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgo_ros2_node.dir/all] Error 2
+[20.515s] make: *** [Makefile:141: all] Error 2
+[20.527s] Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6

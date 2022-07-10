@@ -1,0 +1,13 @@
+[0.073s] Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6
+[0.291s] [35m[1mScanning dependencies of target rgo_ros2_node[0m
+[0.422s] [ 33%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/main.cpp.o[0m
+[0.424s] [ 66%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m
+[1.171s] [01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KSpdLogger.h: No such file or directory
+[1.174s]     2 | #include [01;31m[K"SpdLogger.h"[m[K
+[1.177s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[1.179s] compilation terminated.
+[1.183s] make[2]: *** [CMakeFiles/rgo_ros2_node.dir/build.make:76: CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o] Error 1
+[1.184s] make[2]: *** Waiting for unfinished jobs....
+[12.320s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgo_ros2_node.dir/all] Error 2
+[12.343s] make: *** [Makefile:141: all] Error 2
+[12.349s] Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6

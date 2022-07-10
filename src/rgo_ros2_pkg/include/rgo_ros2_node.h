@@ -5,6 +5,7 @@
 #include <Eigen/Dense>
 #include <fstream>
 
+
 #include <RgoSDK/PerceptionEngine.h>
 
 #include <chrono>
@@ -39,20 +40,24 @@ class RgoRos2Node : public rclcpp::Node
         //void initSubscribers();
         //void initPublishers();
         void timer_callback();
-   
-
+        void InitPerceptionEngine();        
+        void StartPerceptionEngine();
+        void StopPerceptionEngine();
+        void ClosePerceptionEngine();
+        void LocalizationCallback(const Pe::PeService::PoseVelocityFrame &frame);
+        Pe::RobotProxy::SensorFrame::WheelEncoder ConvertToWheelEncoder(const nav_msgs::msg::Odometry::SharedPtr message) const ;
     private:    
-    //publisher smart pointers 
-    rclcpp::Publisher<geometry_msgs::msg::Pose>::SharedPtr publisher_;    
-    rclcpp::Publisher<geometry_msgs::msg::PoseWithCovarianceStamped>::SharedPtr _pose_publisher;
-    rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr _absolute_pose_publisher;
-    
-    //subscriber smart pointers 
-    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscriber_;
-    rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odometry_subscriber_;    
+        //publisher smart pointers 
+        rclcpp::Publisher<geometry_msgs::msg::Pose>::SharedPtr publisher_;    
+        rclcpp::Publisher<geometry_msgs::msg::PoseWithCovarianceStamped>::SharedPtr _pose_publisher;
+        rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr _absolute_pose_publisher;
         
-    float i;
-    size_t count_;
-    rclcpp::TimerBase::SharedPtr timer_;            
+        //subscriber smart pointers 
+        rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscriber_;
+        rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odometry_subscriber_;    
+            
+        float i;    
+        rclcpp::TimerBase::SharedPtr timer_;            
+        std::shared_ptr<Pe::PerceptionEngine> _pe;
                   
 };

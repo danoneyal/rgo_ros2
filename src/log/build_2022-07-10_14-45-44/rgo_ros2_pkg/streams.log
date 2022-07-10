@@ -1,0 +1,10 @@
+[0.063s] Invoking command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6
+[0.273s] [35m[1mScanning dependencies of target rgo_ros2_node[0m
+[0.444s] [ 33%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m
+[33.535s] [ 66%] [32m[1mLinking CXX executable rgo_ros2_node[0m
+[34.712s] /usr/bin/ld: cannot find -llogger
+[34.716s] collect2: error: ld returned 1 exit status
+[34.733s] make[2]: *** [CMakeFiles/rgo_ros2_node.dir/build.make:157: rgo_ros2_node] Error 1
+[34.743s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgo_ros2_node.dir/all] Error 2
+[34.745s] make: *** [Makefile:141: all] Error 2
+[34.749s] Invoked command in '/home/rgo/ros2/capra/src/build/rgo_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/rgo_ros2_pkg -- -j6 -l6

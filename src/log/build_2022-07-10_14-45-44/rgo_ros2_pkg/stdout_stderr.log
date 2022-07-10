@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target rgo_ros2_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rgo_ros2_node.dir/src/rgo_ros2_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable rgo_ros2_node[0m
+/usr/bin/ld: cannot find -llogger
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/rgo_ros2_node.dir/build.make:157: rgo_ros2_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/rgo_ros2_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
