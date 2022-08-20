@@ -1,4 +1,0 @@
-[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:[m[K In member function ‘[01m[KPe::RobotProxy::SensorFrame::WheelEncoder RgoRos2Node::ConvertToWheelEncoder(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr) const[m[K’:
-[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:104:119:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-  104 | Pe::RobotProxy::SensorFrame::WheelEncoder RgoRos2Node::ConvertToWheelEncoder([01;35m[Kconst nav_msgs::msg::Odometry::SharedPtr message[m[K) const
-      |                                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K

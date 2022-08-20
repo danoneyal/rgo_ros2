@@ -1,7 +1,0 @@
-[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:[m[K In member function ‘[01m[KPe::RobotProxy::SensorFrame::WheelEncoder RgoRos2Node::ConvertToWheelEncoder(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr) const[m[K’:
-[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:106:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
-  106 |   float [01;35m[Kx[m[K= message->twist.twist.linear.x;
-      |         [01;35m[K^[m[K
-[01m[K/home/rgo/ros2/capra/src/rgo_ros2_pkg/src/rgo_ros2_node.cpp:107:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-variable[m[K]
-  107 |   float [01;35m[Kz[m[K= message->twist.twist.angular.z;
-      |         [01;35m[K^[m[K

@@ -1,1 +1,0 @@
-Invoking command in '/home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rgo/ros2/capra/src/build/robot_sim_ros2_pkg -- -j6 -l6

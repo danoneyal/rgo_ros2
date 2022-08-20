@@ -19,6 +19,7 @@ class RobotSimRos2Node : public rclcpp::Node
     RobotSimRos2Node ()
     : Node("robot_sim_ros2_node"), count_(0)
     {      
+       RCLCPP_INFO(this->get_logger(), "v3");
       //create a subscriber to the rgo position 
       subscriber_ = this->create_subscription<geometry_msgs::msg::Pose>("rgo_pos", 1, std::bind(&RobotSimRos2Node::subscribe_message, this, _1));
       pose_subscriber_ = this->create_subscription<geometry_msgs::msg::PoseWithCovarianceStamped>("/rgo_pose_with_cov", 1, std::bind(&RobotSimRos2Node::subscribe_pose_message, this, _1));
